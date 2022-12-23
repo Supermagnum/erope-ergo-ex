@@ -23,6 +23,9 @@ https://github.com/Supermagnum/Europe-ergo/blob/main/keycaps.jpg
 Firmware:
 https://github.com/Supermagnum/Europe-ergo/tree/main/Europe_ergo_firmware/europe_ergo
 
+Picture:
+https://github.com/Supermagnum/erope-ergo-ex/blob/main/Europe-flex.jpg
+
 
 All mechanical blueprints as pdf files can be exported from the Freecad file.
 Freecad can be found for free here:
