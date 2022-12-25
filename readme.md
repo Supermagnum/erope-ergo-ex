@@ -23,6 +23,9 @@ PCBway:
 <a href="https://www.pcbway.com/project/shareproject/Europe_ergo_2951aba6.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
 
+Aisler:
+https://aisler.net/p/NEFSAHWJ
+
 
 Firmware:
 https://github.com/Supermagnum/Europe-ergo/tree/main/Europe_ergo_firmware/europe_ergo
