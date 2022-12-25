@@ -19,6 +19,10 @@ The L1/L2 button is to change from  Norwegian QWERTY to Norwegian Dvorak.
 Keycaps:
 https://github.com/Supermagnum/Europe-ergo/blob/main/keycaps.jpg
 
+PCBway:
+<a href="https://www.pcbway.com/project/shareproject/Europe_ergo_2951aba6.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+
+
 
 Firmware:
 https://github.com/Supermagnum/Europe-ergo/tree/main/Europe_ergo_firmware/europe_ergo
