@@ -53,3 +53,11 @@ The right side has identical outputs for PWM.
 
 Cherry MX switches should fit the PCB'S.
 
+
+
+---------
+To do:
+Make the cutouts closer to the top and bottoms of the double rows.
+Make pcb holders in kicad.
+
+
