@@ -21,41 +21,40 @@
       )
     )
     (boundary
-      (path pcb 0  542950 -272500  411500 -272500  389500 -240500  372500 -235500
-            350000 -228500  315500 -228500  315500 -229000  350000 -229000
-            389000 -241000  402000 -262500  334500 -299500  322000 -277500
-            335500 -232000  334500 -231500  320500 -278000  334000 -301000
-            403500 -263500  410000 -272500  410000 -374000  324300 -374000
-            324325 -370610  324325 -364510  325625 -364510  325625 -360010
-            324325 -360010  324325 -353410  324320 -347000  301000 -347000
-            300945 -354530  300945 -360630  299645 -360630  299645 -365130
-            300945 -365130  300945 -371730  300900 -374000  226000 -374000
-            226000 -272000  213500 -272000  220000 -263000  289500 -300500
-            303000 -277500  289000 -231000  288000 -231500  301500 -277000
-            289000 -299000  221500 -262000  234500 -240500  273500 -228500
-            308000 -228500  308000 -228000  273500 -228000  251000 -235000
-            234000 -240000  212000 -272000  85500 -272000  85500 -34500
-            543000 -34500  542950 -272500)
+      (path pcb 0  538500 -266500  407000 -266500  390000 -240000  373000 -235000
+            350500 -228000  316000 -228000  316000 -228500  350500 -228500
+            389500 -240500  402500 -262000  335000 -299000  322500 -277000
+            336000 -231500  335000 -231000  321000 -277500  334500 -300500
+            398000 -266500  398000 -374000  324300 -374000  324325 -370610
+            324325 -364510  325625 -364510  325625 -360010  324325 -360010
+            324325 -353410  324320 -347000  301000 -347000  300945 -354530
+            300945 -360630  299645 -360630  299645 -365130  300945 -365130
+            300945 -371730  300900 -374000  226000 -374000  226000 -266500
+            289500 -300500  303000 -277500  289000 -231000  288000 -231500
+            301500 -277000  289000 -299000  221500 -262000  234500 -240500
+            273500 -228500  308000 -228500  308000 -228000  273500 -228000
+            251000 -235000  234000 -240000  217000 -266500  85500 -266500
+            85500 -34500  538550 -34500  538500 -266500)
     )
-    (plane GNDR (polygon F.Cu 0  542500 -60000  315000 -60000  315000 -62000  542500 -62000
-            542500 -133000  315500 -133000  315500 -135000  542500 -135000
-            542500 -194000  315000 -194000  315000 -196000  542500 -196000
-            542500 -272500  409500 -272500  409500 -374000  324000 -374000
-            324000 -347000  313000 -347000  313000 -34500  542500 -34500
-            542500 -60000))
+    (plane GNDR (polygon F.Cu 0  538500 -60000  315000 -60000  315000 -72500  538500 -72500
+            538500 -133000  315500 -133000  315500 -135000  538500 -135000
+            538500 -194000  315000 -194000  315000 -196000  538500 -196000
+            538500 -267000  398000 -267000  398000 -374000  324000 -374000
+            324000 -347000  313000 -347000  313000 -34500  538500 -34500
+            538500 -60000))
     (plane GNDL (polygon F.Cu 0  310991 -347000  301491 -347000  301491 -374000  226491 -374000
             226491 -304500  309491 -304500  309491 -301500  226491 -301500
-            226491 -272000  85991.2 -272000  85991.2 -196000  308491 -196000
+            226491 -266500  85991.2 -266500  85991.2 -196000  308491 -196000
             308491 -194000  85991.2 -194000  85991.2 -135000  307491 -135000
-            307491 -133000  85991.2 -133000  85991.2 -62000  308491 -62000
+            307491 -133000  85991.2 -133000  85991.2 -72500  308491 -72500
             308491 -60000  85991.2 -60000  85991.2 -34500  311000 -34500
             310991 -347000))
     (keepout "" (polygon signal 0  311000 -40000  311000 -342000  313000 -342000  313000 -40000
             311000 -40000))
+    (keepout "" (polygon signal 0  314500 -301500  314500 -304500  393500 -304500  393500 -301500
+            314500 -301500))
     (keepout "" (polygon signal 0  229500 -301500  229500 -304500  309000 -304500  309000 -301500
             229500 -301500))
-    (keepout "" (polygon signal 0  314500 -301500  314500 -304500  406500 -304500  406500 -301500
-            314500 -301500))
     (keepout "" (polygon signal 0  315500 -194000  315500 -196000  535500 -196000  535500 -194000
             315500 -194000))
     (keepout "" (polygon signal 0  88000 -194000  88000 -196000  308000 -196000  308000 -194000
@@ -64,14 +63,14 @@
             87000 -133000))
     (keepout "" (polygon signal 0  316000 -133000  316000 -135000  536000 -135000  536000 -133000
             316000 -133000))
-    (keepout "" (polygon signal 0  315500 -60000  315500 -62000  535500 -62000  535500 -60000
+    (keepout "" (polygon signal 0  315500 -60000  315500 -72500  535500 -72500  535500 -60000
             315500 -60000))
-    (keepout "" (polygon signal 0  88000 -60000  88000 -62000  308000 -62000  308000 -60000
+    (keepout "" (polygon signal 0  88000 -60000  88000 -72500  308000 -72500  308000 -60000
             88000 -60000))
-    (keepout "" (polygon F.Cu 0  412500 -304500  402500 -304500  402500 -301500  412500 -301500
-            412500 -304500))
-    (keepout "" (polygon B.Cu 0  412500 -304500  402500 -304500  402500 -301500  412500 -301500
-            412500 -304500))
+    (keepout "" (polygon F.Cu 0  402000 -304500  392000 -304500  392000 -301500  402000 -301500
+            402000 -304500))
+    (keepout "" (polygon B.Cu 0  402000 -304500  392000 -304500  392000 -301500  402000 -301500
+            402000 -304500))
     (keepout "" (polygon F.Cu 0  232000 -304500  222000 -304500  222000 -301500  232000 -301500
             232000 -304500))
     (keepout "" (polygon B.Cu 0  232000 -304500  222000 -304500  222000 -301500  232000 -301500
@@ -89,32 +88,6 @@
     )
   )
   (placement
-    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place J37 333500.000000 -250000.000000 front 0.000000 (PN Conn_01x03_Female))
-      (place J24 405000.000000 -253000.000000 front 90.000000 (PN Conn_01x03_Female))
-      (place J22 195500.000000 -253000.000000 front 90.000000 (PN Conn_01x03_Female))
-      (place J14 289500.000000 -250000.000000 front 0.000000 (PN Conn_01x03_Female))
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
-      (place J45 222850.000000 -109650.000000 front 0.000000 (PN Conn_01x02_Male))
-      (place J36 125240.000000 -110060.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J35 293260.000000 -147110.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J34 126330.000000 -174000.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J33 124180.000000 -82780.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J32 127065.000000 -213095.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J31 400000.000000 -238240.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J30 328000.000000 -210000.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J29 351920.000000 -177950.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J28 328200.000000 -162820.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J27 327420.000000 -113930.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J26 326985.000000 -86465.000000 front 0.000000 (PN Conn_01x01_Female))
-      (place J20 284000.000000 -264500.000000 front 0.000000 (PN Conn_01x01_Male))
-      (place J18 261000.000000 -252500.000000 front 0.000000 (PN Conn_01x01_Male))
-      (place J16 294000.000000 -213500.000000 front 0.000000 (PN Conn_01x01_Male))
-      (place J12 270000.000000 -216000.000000 front 0.000000 (PN Conn_01x01_Male))
-      (place J9 254500.000000 -241000.000000 front 0.000000 (PN Conn_01x01_Male))
-      (place J4 126975.000000 -238145.000000 front 0.000000 (PN Conn_01x01_Female))
-    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
       (place D23 432100.000000 -222000.000000 front 0.000000 (PN 1N4148))
     )
@@ -124,7 +97,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
       (place D91 135190.000000 -252930.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
       (place J137 261000.000000 -310660.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component MountingHole:MountingHole_4.3mm_M4_DIN965_Pad
@@ -133,35 +106,35 @@
       (place H24 335580.000000 -262000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H9 304500.000000 -154500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H4 91500.000000 -154500.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H23 376000.000000 -232000.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H27 537000.000000 -86500.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H23 376000.000000 -231500.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H27 533000.000000 -86500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H19 289800.000000 -261700.000000 front 0.000000 (PN MountingHole_Pad))
       (place H16 304500.000000 -179500.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H18 92000.000000 -244000.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H18 91000.000000 -244000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H25 533000.000000 -154500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H10 260300.000000 -245700.000000 front 0.000000 (PN MountingHole_Pad))
       (place H17 246100.000000 -232100.000000 front 0.000000 (PN MountingHole_Pad))
       (place H37 319500.000000 -154500.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H1 92000.000000 -87000.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H1 91500.000000 -87000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H12 303400.000000 -86500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H5 329500.000000 -310000.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H32 536000.000000 -114000.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H32 533000.000000 -114000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H30 364280.000000 -245900.000000 front 0.000000 (PN MountingHole_Pad))
       (place H21 319000.000000 -87000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H28 533000.000000 -179500.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H36 528000.000000 -48000.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H36 533000.000000 -48000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H38 319500.000000 -211500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H13 280780.000000 -364260.000000 front 0.000000 (PN MountingHole_Pad))
       (place H8 91000.000000 -219000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H22 319000.000000 -179500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H2 91500.000000 -179500.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H31 535000.000000 -219000.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H31 532500.000000 -219000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H7 384500.000000 -310000.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H29 535000.000000 -244000.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H29 532500.000000 -244000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H11 91200.000000 -115400.000000 front 0.000000 (PN MountingHole_Pad))
       (place H14 238500.000000 -311080.000000 front 0.000000 (PN MountingHole_Pad))
       (place H6 347920.000000 -363080.000000 front 0.000000 (PN MountingHole_Pad))
-      (place H33 94000.000000 -47500.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H33 91500.000000 -47500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H3 304000.000000 -211000.000000 front 0.000000 (PN MountingHole_Pad))
       (place H35 320500.000000 -47500.000000 front 0.000000 (PN MountingHole_Pad))
       (place H20 303600.000000 -113700.000000 front 0.000000 (PN MountingHole_Pad))
@@ -172,6 +145,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::2"
       (place D61 267614.000000 -258312.000000 front 0.000000 (PN 1N4148))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place J24 405000.000000 -253000.000000 front 90.000000 (PN Conn_01x03_Female))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::2
       (place J39 199080.000000 -107460.000000 front 0.000000 (PN Conn_01x02_Male))
@@ -191,7 +167,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::1
       (place SW3 514020.000000 -150760.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::2
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
       (place J141 366736.000000 -309672.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::5"
@@ -209,6 +185,9 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::3
       (place J53 245250.000000 -175870.000000 front 0.000000 (PN Conn_01x02_Male))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::2
+      (place J4 126975.000000 -238145.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::2
       (place SW28 413920.000000 -209360.000000 front 0.000000 (PN "MX-NO-LED"))
     )
@@ -219,12 +198,15 @@
       (place D95 135190.000000 -228930.000000 front 0.000000 (PN 1N4148))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::3
-      (place J110 528000.000000 -220500.000000 front 0.000000 (PN Conn_01x01_Male))
+      (place J110 495000.000000 -214500.000000 front 0.000000 (PN Conn_01x01_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::4
+      (place J45 222850.000000 -109650.000000 front 0.000000 (PN Conn_01x02_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::3
       (place SW80 165530.000000 -232950.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::4
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::5
       (place J152 389636.000000 -52832.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::9"
@@ -248,6 +230,9 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::4
       (place J102 471000.000000 -174144.000000 front 0.000000 (PN Conn_01x02_Male))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::6
+      (place J32 127065.000000 -213095.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::1
       (place R11 290830.000000 -354340.000000 front 0.000000 (PN 4.7K))
     )
@@ -263,7 +248,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::7
       (place SW11 485220.000000 -174560.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::5
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::7
       (place J148 515366.000000 -50546.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::2
@@ -275,8 +260,11 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::8
       (place SW7 484020.000000 -81460.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::6
-      (place J120 346286.000000 -235122.000000 front 0.000000 (PN Conn_01x01_Male))
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::8
+      (place J27 327420.000000 -113930.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::9
+      (place J120 346500.000000 -235000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::9
       (place SW58 260140.000000 -148420.000000 front 0.000000 (PN "MX-NO-LED"))
@@ -335,8 +323,8 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::18"
       (place D62 254600.000000 -165500.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::7
-      (place J70 350776.000000 -263856.000000 front 0.000000 (PN Conn_01x01_Male))
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::10
+      (place J70 352000.000000 -213000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::17
       (place SW15 461620.000000 -148360.000000 front 0.000000 (PN "MX-NO-LED"))
@@ -347,10 +335,10 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::20"
       (place D82 183190.000000 -221930.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::8
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::11
       (place J133 202438.000000 -56388.000000 front 0.000000 (PN Conn_01x01_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::9
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::12
       (place J142 458216.000000 -50292.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::3
@@ -362,7 +350,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::21"
       (place D56 286234.000000 -268312.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::10
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::13
       (place J98 471000.000000 -216000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::22"
@@ -380,20 +368,26 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::21
       (place SW62 237640.000000 -108200.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::11
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::14
       (place J119 286913.700000 -240222.600000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::22
       (place SW87 142540.000000 -110900.000000 front 0.000000 (PN "MX-NO-LED"))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::1
+      (place J14 289500.000000 -250000.000000 front 0.000000 (PN Conn_01x03_Female))
+    )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::9
       (place J108 496710.000000 -178550.000000 front 0.000000 (PN Conn_01x02_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::12
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::15
       (place J139 370546.000000 -309672.000000 front 0.000000 (PN Conn_01x01_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::13
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::16
       (place J146 487680.000000 -50292.000000 front 0.000000 (PN Conn_01x01_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::17
+      (place J35 293260.000000 -147110.000000 front 0.000000 (PN Conn_01x01_Female))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::24"
       (place D98 106190.000000 -192500.000000 front 0.000000 (PN 1N4148))
@@ -425,22 +419,28 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::29"
       (place D100 106600.000000 -127500.000000 front 0.000000 (PN 1N4148))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::18
+      (place J30 328000.000000 -210000.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::10
       (place J85 399850.000000 -175740.000000 front 0.000000 (PN Conn_01x02_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::30"
       (place D99 107190.000000 -228930.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::14
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::19
       (place J92 447500.000000 -214000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::15
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::20
       (place J43 174600.000000 -212920.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::4
       (place R4 486080.000000 -54000.000000 front 180.000000 (PN 330))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::16
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::2
+      (place J37 333500.000000 -250000.000000 front 0.000000 (PN Conn_01x03_Female))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::21
       (place J130 117348.000000 -50800.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::31"
@@ -455,7 +455,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::26
       (place SW81 166540.000000 -106100.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::17
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::22
       (place J147 359116.000000 -309672.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::11
@@ -463,6 +463,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::33"
       (place D41 359480.000000 -187300.000000 front 0.000000 (PN 1N4148))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::3
+      (place J22 195500.000000 -253000.000000 front 90.000000 (PN Conn_01x03_Female))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::34"
       (place D34 384480.000000 -187300.000000 front 0.000000 (PN 1N4148))
@@ -472,6 +475,9 @@
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::6
       (place SW54 277150.000000 -209110.000000 front 90.000000 (PN "MX-NO-LED"))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::23
+      (place J20 284000.000000 -264500.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::36"
       (place D58 277570.000000 -222930.000000 front 0.000000 (PN 1N4148))
@@ -488,8 +494,11 @@
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::5
       (place R12 107920.000000 -56000.000000 front 0.000000 (PN 330))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::18
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::24
       (place J134 278866.000000 -346372.000000 front 0.000000 (PN Conn_01x01_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::25
+      (place J31 400000.000000 -238240.000000 front 0.000000 (PN Conn_01x01_Female))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::28
       (place SW47 338659.700000 -276330.600000 front 30.000000 (PN "MX-NO-LED"))
@@ -503,7 +512,7 @@
     (component "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp::1"
       (place D49 452064.700000 -50440.000000 front 0.000000 (PN LED))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::19
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::26
       (place J144 371562.000000 -347106.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::29
@@ -512,7 +521,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::39"
       (place D14 454380.000000 -124660.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::20
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::27
       (place J65 246000.000000 -214500.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::13
@@ -533,10 +542,10 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::33
       (place SW46 347259.700000 -243760.000000 front 30.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::21
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::28
       (place J151 374610.000000 -309672.000000 front 0.000000 (PN Conn_01x01_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::22
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::29
       (place J143 435500.000000 -54000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::34
@@ -548,7 +557,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::42"
       (place D33 384100.000000 -163300.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::23
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::30
       (place J145 362926.000000 -309672.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::35
@@ -569,13 +578,13 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::37
       (place SW12 485220.000000 -238060.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::24
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::31
       (place J128 416010.000000 -253350.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::38
       (place SW84 171140.000000 -81320.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::25
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::32
       (place J131 253500.000000 -310740.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::44"
@@ -603,18 +612,18 @@
       (place D65 255190.000000 -226930.000000 front 0.000000 (PN 1N4148))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical::1
-      (place J8 403025.000000 -319350.000000 front 0.000000 (PN Conn_01x09_Male))
+      (place J8 393000.000000 -319800.000000 front 0.000000 (PN Conn_01x09_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::26
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::33
       (place J86 423500.000000 -215000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::27
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::34
       (place J150 232410.000000 -53086.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::48"
       (place D77 206600.000000 -162500.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::28
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::35
       (place J117 281130.000000 -260386.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::41
@@ -626,7 +635,7 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::15
       (place J41 197250.000000 -171310.000000 front 0.000000 (PN Conn_01x02_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::29
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::36
       (place J149 264500.000000 -310558.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::49"
@@ -641,14 +650,17 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::52"
       (place D28 408480.000000 -185300.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::30
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::37
       (place J118 294000.000000 -207554.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::53"
       (place D71 230570.000000 -226930.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::31
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::38
       (place J74 375500.000000 -218000.000000 front 0.000000 (PN Conn_01x01_Male))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::39
+      (place J29 351920.000000 -177950.000000 front 0.000000 (PN Conn_01x01_Female))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::42
       (place SW1 512720.000000 -81560.000000 front 0.000000 (PN "MX-NO-LED"))
@@ -674,7 +686,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::44
       (place SW51 282313.700000 -244302.600000 front -30.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::32
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::40
       (place J21 150000.000000 -217500.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::45
@@ -689,7 +701,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::47
       (place SW86 141530.000000 -237750.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::33
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::41
       (place J116 274500.000000 -233500.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::16
@@ -719,7 +731,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::61"
       (place D21 432480.000000 -159300.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::34
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::42
       (place J122 219700.000000 -52900.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::10
@@ -755,6 +767,9 @@
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::11
       (place R5 333960.000000 -354000.000000 front 180.000000 (PN 4.7K))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::43
+      (place J36 125240.000000 -110060.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::51
       (place SW45 359359.700000 -264490.600000 front 30.000000 (PN "MX-NO-LED"))
     )
@@ -767,10 +782,10 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::63"
       (place D75 207190.000000 -223930.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::35
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::44
       (place J49 198000.000000 -211000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::36
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::45
       (place J55 222000.000000 -213000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::54
@@ -782,7 +797,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::55
       (place SW70 212540.000000 -146120.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::37
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::46
       (place J104 495000.000000 -220000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::10
@@ -794,10 +809,13 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::57
       (place SW72 228440.000000 -81120.000000 front 0.000000 (PN "MX-NO-LED"))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::47
+      (place J18 261000.000000 -252500.000000 front 0.000000 (PN Conn_01x01_Male))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::64"
       (place D19 420080.000000 -96800.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::38
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::48
       (place J138 202438.000000 -51308.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::65"
@@ -806,13 +824,16 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::58
       (place SW13 455420.000000 -81660.000000 front 0.000000 (PN "MX-NO-LED"))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::49
+      (place J12 270000.000000 -216000.000000 front 0.000000 (PN Conn_01x01_Male))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::66"
       (place D36 371160.000000 -248400.000000 front 0.000000 (PN 1N4148))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::67"
       (place D59 276980.000000 -173500.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::39
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::50
       (place J140 429514.000000 -50292.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::21
@@ -824,7 +845,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::68"
       (place D32 383380.000000 -124660.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::40
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::51
       (place J153 402900.000000 -52700.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::69"
@@ -832,6 +853,9 @@
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::60
       (place SW33 390120.000000 -148360.000000 front 0.000000 (PN "MX-NO-LED"))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::52
+      (place J16 294000.000000 -213500.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical::3
       (place J5 230500.000000 -320760.000000 front 0.000000 (PN Conn_01x09_Male))
@@ -841,6 +865,12 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::71"
       (place D76 207190.000000 -247930.000000 front 0.000000 (PN 1N4148))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::53
+      (place J33 124180.000000 -82780.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::54
+      (place J9 254500.000000 -241000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::72"
       (place D84 194000.000000 -97700.000000 front 0.000000 (PN 1N4148))
@@ -878,7 +908,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::76"
       (place D31 363700.000000 -96800.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::41
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::55
       (place J68 343000.000000 -266000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::63
@@ -890,13 +920,16 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::26
       (place J11 125190.000000 -114880.000000 front 0.000000 (PN Conn_01x02_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::42
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::56
+      (place J34 126330.000000 -174000.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::57
       (place J132 145796.000000 -51054.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::27
       (place J94 445870.000000 -108070.000000 front 0.000000 (PN Conn_01x02_Male))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::43
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::58
       (place J135 257500.000000 -310670.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::78"
@@ -908,7 +941,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::65
       (place SW38 365220.000000 -108820.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::44
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::59
       (place J136 174752.000000 -50800.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::66
@@ -941,6 +974,9 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::70
       (place SW75 190140.000000 -103500.000000 front 0.000000 (PN "MX-NO-LED"))
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::60
+      (place J26 326985.000000 -86465.000000 front 0.000000 (PN Conn_01x01_Female))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::83"
       (place D30 408100.000000 -248000.000000 front 0.000000 (PN 1N4148))
     )
@@ -949,6 +985,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::84"
       (place D6 503480.000000 -253000.000000 front 0.000000 (PN 1N4148))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::61
+      (place J28 328200.000000 -162820.000000 front 0.000000 (PN Conn_01x01_Female))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::72
       (place SW65 249813.700000 -253102.600000 front -30.000000 (PN "MX-NO-LED"))
@@ -965,8 +1004,8 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::75
       (place SW59 260830.000000 -211550.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::45
-      (place J121 346286.000000 -235122.000000 front 0.000000 (PN Conn_01x01_Male))
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::62
+      (place J121 358000.000000 -240500.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::29
       (place J90 423390.000000 -173590.000000 front 0.000000 (PN Conn_01x02_Male))
@@ -1004,7 +1043,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::92"
       (place D57 278234.000000 -235312.000000 front 0.000000 (PN 1N4148))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::46
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::63
       (place J129 249500.000000 -310740.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp::3"
@@ -1022,7 +1061,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::80
       (place SW23 437820.000000 -167560.000000 front 0.000000 (PN "MX-NO-LED"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::47
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::64
       (place J15 127000.000000 -220000.000000 front 0.000000 (PN Conn_01x01_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::30
@@ -1049,44 +1088,6 @@
     )
   )
   (library
-    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (outline (path signal 120  -1330 -6410  1330 -6410))
-      (outline (path signal 120  -1330 -1270  -1330 -6410))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  1330 -1270  1330 -6410))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 50  1800 -6850  1800 1800))
-      (outline (path signal 50  -1800 -6850  1800 -6850))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  -1800 1800  -1800 -6850))
-      (outline (path signal 100  1270 -6350  -1270 -6350))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  1270 1270  1270 -6350))
-      (outline (path signal 100  -1270 -6350  -1270 635))
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
-    )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 -1330  1330 -1330))
-      (outline (path signal 120  1330 -1270  1330 -1330))
-      (outline (path signal 120  -1330 -1270  -1330 -1330))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 50  -1800 -1800  1800 -1800))
-      (outline (path signal 50  1800 -1800  1800 1800))
-      (outline (path signal 50  -1800 1800  -1800 -1800))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 100  1270 1270  1270 -1270))
-      (outline (path signal 100  -1270 -1270  -1270 635))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 -1270  -1270 -1270))
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
-    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
       (outline (path signal 120  2410 1120  2410 -1120))
       (outline (path signal 120  6580 0  5930 0))
@@ -1158,7 +1159,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -1255,6 +1256,26 @@
       (outline (path signal 100  5810 -1000  5810 1000))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 50  -1800 1800  -1800 -6850))
+      (outline (path signal 50  -1800 -6850  1800 -6850))
+      (outline (path signal 50  1800 -6850  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::2
       (outline (path signal 120  1330 -1270  1330 -3870))
@@ -1405,7 +1426,7 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::2
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -1548,6 +1569,24 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::2
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::2
       (outline (path signal 120  -9525 -12065  -9525 1905))
       (outline (path signal 120  4445 1905  4445 -12065))
@@ -1644,6 +1683,24 @@
       (outline (path signal 100  -635 1270  1270 1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::4
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::3
       (outline (path signal 120  4445 1905  4445 -12065))
       (outline (path signal 120  -9525 1905  4445 1905))
@@ -1670,7 +1727,7 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::4
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::5
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -1853,6 +1910,24 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::6
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::1
       (outline (path signal 120  620 920  4460 920))
       (outline (path signal 120  620 -920  4460 -920))
@@ -1966,7 +2041,7 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::5
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::7
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -2052,7 +2127,25 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::6
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::8
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::9
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -2543,7 +2636,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::7
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::10
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -2639,7 +2732,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::8
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::11
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -2657,7 +2750,7 @@
       (outline (path signal 100  -635 1270  1270 1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::9
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::12
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -2743,7 +2836,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::10
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::13
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -2891,7 +2984,7 @@
       (keepout "" (circle F.Cu 1700 -7620 -5080))
       (keepout "" (circle B.Cu 1700 -7620 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::11
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::14
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -2935,6 +3028,26 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::1
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -6850  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -6850))
+      (outline (path signal 50  -1800 -6850  1800 -6850))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+    )
     (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::9
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  -1330 -3870))
@@ -2954,7 +3067,7 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::12
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::15
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -2972,7 +3085,7 @@
       (outline (path signal 100  1270 1270  1270 -1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::13
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::16
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -2988,6 +3101,24 @@
       (outline (path signal 100  -1270 635  -635 1270))
       (outline (path signal 100  -635 1270  1270 1270))
       (outline (path signal 100  1270 -1270  -1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::17
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::24"
@@ -3250,6 +3381,24 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::18
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::10
       (outline (path signal 120  -1330 -1270  -1330 -3870))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -3295,7 +3444,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::14
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::19
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -3313,7 +3462,7 @@
       (outline (path signal 100  -635 1270  1270 1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::15
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::20
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -3347,7 +3496,27 @@
       (pin Round[A]Pad_1400_um 1 0 0)
       (pin Oval[A]Pad_1400x1400_um 2 5080 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::16
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::2
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 50  -1800 1800  -1800 -6850))
+      (outline (path signal 50  1800 -6850  1800 1800))
+      (outline (path signal 50  -1800 -6850  1800 -6850))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::21
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -3469,7 +3638,7 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::17
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::22
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -3531,6 +3700,26 @@
       (outline (path signal 100  5810 -1000  5810 1000))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::3
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -6850  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -6850))
+      (outline (path signal 50  -1800 -6850  1800 -6850))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
     )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::34"
       (outline (path signal 120  2530 1120  2530 -1120))
@@ -3609,6 +3798,24 @@
       (keepout "" (circle B.Cu 1700 2540 -5080))
       (keepout "" (circle F.Cu 1700 -7620 -5080))
       (keepout "" (circle B.Cu 1700 -7620 -5080))
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::23
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::36"
       (outline (path signal 120  1040 0  1690 0))
@@ -3730,7 +3937,7 @@
       (pin Round[A]Pad_1400_um 1 0 0)
       (pin Oval[A]Pad_1400x1400_um 2 5080 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::18
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::24
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -3746,6 +3953,24 @@
       (outline (path signal 100  1270 -1270  -1270 -1270))
       (outline (path signal 100  -1270 635  -635 1270))
       (outline (path signal 100  -635 1270  1270 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::25
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::28
@@ -3844,7 +4069,7 @@
       (pin Rect[A]Pad_1500x1500_um 1 0 0)
       (pin Oval[A]Pad_1500x1500_um 2 2540 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::19
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::26
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
@@ -3914,7 +4139,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::20
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::27
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -4081,7 +4306,7 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::21
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::28
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -4099,7 +4324,7 @@
       (outline (path signal 100  -635 1270  1270 1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::22
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::29
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -4195,7 +4420,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::23
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::30
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -4379,22 +4604,22 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::24
-      (outline (path signal 120  -1330 -1270  -1330 -1330))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  -1330 -1330  1330 -1330))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  1330 -1270  1330 -1330))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  -1800 -1800  1800 -1800))
-      (outline (path signal 50  1800 -1800  1800 1800))
-      (outline (path signal 50  -1800 1800  -1800 -1800))
-      (outline (path signal 100  1270 1270  1270 -1270))
-      (outline (path signal 100  1270 -1270  -1270 -1270))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  -1270 635  -635 1270))
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::31
       (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::38
@@ -4423,7 +4648,7 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::25
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::32
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
@@ -4658,7 +4883,7 @@
       (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
       (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::26
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::33
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -4676,7 +4901,7 @@
       (outline (path signal 100  1270 1270  1270 -1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::27
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::34
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -4720,7 +4945,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::28
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::35
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
@@ -4799,7 +5024,7 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::29
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::36
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -4921,7 +5146,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::30
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::37
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
@@ -4965,7 +5190,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::31
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::38
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -4981,6 +5206,24 @@
       (outline (path signal 100  -1270 635  -635 1270))
       (outline (path signal 100  -1270 -1270  -1270 635))
       (outline (path signal 100  1270 -1270  -1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::39
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::42
@@ -5193,7 +5436,7 @@
       (keepout "" (circle F.Cu 1700 -7620 -5080))
       (keepout "" (circle B.Cu 1700 -7620 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::32
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::40
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -5315,7 +5558,7 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::33
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::41
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
@@ -5553,7 +5796,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::34
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::42
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -5809,6 +6052,24 @@
       (pin Round[A]Pad_1400_um 1 0 0)
       (pin Oval[A]Pad_1400x1400_um 2 5080 0)
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::43
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::51
       (outline (path signal 120  -9525 1905  4445 1905))
       (outline (path signal 120  4445 -12065  -9525 -12065))
@@ -5913,7 +6174,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::35
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::44
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
@@ -5931,7 +6192,7 @@
       (outline (path signal 100  1270 -1270  -1270 -1270))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::36
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::45
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
@@ -5976,30 +6237,30 @@
       (keepout "" (circle B.Cu 1700 -7620 -5080))
     )
     (image Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical::2
-      (outline (path signal 120  -1330 -1270  -1330 -21650))
-      (outline (path signal 120  1330 -1270  1330 -21650))
-      (outline (path signal 120  1330 1330  1330 0))
-      (outline (path signal 120  -1330 -21650  1330 -21650))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  0 1330  1330 1330))
-      (outline (path signal 50  1750 1800  1750 -22100))
-      (outline (path signal 50  1750 -22100  -1800 -22100))
-      (outline (path signal 50  -1800 -22100  -1800 1800))
-      (outline (path signal 50  -1800 1800  1750 1800))
-      (outline (path signal 100  635 1270  1270 635))
-      (outline (path signal 100  -1270 1270  635 1270))
-      (outline (path signal 100  -1270 -21590  -1270 1270))
-      (outline (path signal 100  1270 635  1270 -21590))
       (outline (path signal 100  1270 -21590  -1270 -21590))
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
-      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
-      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
-      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
-      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
-      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (outline (path signal 100  1270 635  1270 -21590))
+      (outline (path signal 100  -1270 -21590  -1270 1270))
+      (outline (path signal 100  -1270 1270  635 1270))
+      (outline (path signal 100  635 1270  1270 635))
+      (outline (path signal 50  -1800 1800  1750 1800))
+      (outline (path signal 50  -1800 -22100  -1800 1800))
+      (outline (path signal 50  1750 -22100  -1800 -22100))
+      (outline (path signal 50  1750 1800  1750 -22100))
+      (outline (path signal 120  0 1330  1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -21650  1330 -21650))
+      (outline (path signal 120  1330 1330  1330 0))
+      (outline (path signal 120  1330 -1270  1330 -21650))
+      (outline (path signal 120  -1330 -1270  -1330 -21650))
       (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::55
       (outline (path signal 120  4445 -12065  -9525 -12065))
@@ -6027,7 +6288,7 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::37
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::46
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -6123,6 +6384,24 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::47
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::64"
       (outline (path signal 120  2530 1120  2530 -1120))
       (outline (path signal 120  1690 1120  1690 -1120))
@@ -6149,7 +6428,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::38
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::48
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -6219,6 +6498,24 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::49
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::66"
       (outline (path signal 120  2530 1120  2530 -1120))
       (outline (path signal 120  2410 1120  2410 -1120))
@@ -6271,7 +6568,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::39
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::50
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -6360,7 +6657,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::40
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::51
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -6429,6 +6726,24 @@
       (keepout "" (circle B.Cu 1700 2540 -5080))
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::52
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical::3
       (outline (path signal 120  0 1330  1330 1330))
@@ -6507,6 +6822,42 @@
       (outline (path signal 100  2510 1000  2510 -1000))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::53
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::54
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::72"
       (outline (path signal 120  2410 1120  2410 -1120))
@@ -6805,7 +7156,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::41
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::55
       (outline (path signal 120  -1330 -1270  -1330 -1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -6894,7 +7245,25 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::42
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::56
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::57
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
@@ -6931,7 +7300,7 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::43
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::58
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -7027,7 +7396,7 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::44
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::59
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
@@ -7298,6 +7667,24 @@
       (keepout "" (circle F.Cu 1700 -7620 -5080))
       (keepout "" (circle B.Cu 1700 -7620 -5080))
     )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::60
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::83"
       (outline (path signal 120  1690 1120  1690 -1120))
       (outline (path signal 120  2530 1120  2530 -1120))
@@ -7375,6 +7762,24 @@
       (outline (path signal 100  1810 1000  1810 -1000))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::61
+      (outline (path signal 120  -1330 -1330  1330 -1330))
+      (outline (path signal 120  1330 -1270  1330 -1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  1800 -1800  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -1800))
+      (outline (path signal 50  -1800 -1800  1800 -1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -1270  -1270 635))
+      (outline (path signal 100  1270 1270  1270 -1270))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 -1270  -1270 -1270))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::72
       (outline (path signal 120  4445 1905  4445 -12065))
@@ -7506,7 +7911,7 @@
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::45
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::62
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
@@ -7829,7 +8234,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::46
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::63
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
@@ -7992,7 +8397,7 @@
       (keepout "" (circle F.Cu 1700 2540 -5080))
       (keepout "" (circle B.Cu 1700 2540 -5080))
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::47
+    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::64
       (outline (path signal 120  1330 -1270  1330 -1330))
       (outline (path signal 120  -1330 -1330  1330 -1330))
       (outline (path signal 120  -1330 -1270  -1330 -1330))
@@ -9113,10 +9518,10 @@
       (pins D46-1 J68-1)
     )
     (net /COL9_L
-      (pins J14-1 J20-1 D56-1)
+      (pins D56-1 J14-1 J20-1)
     )
     (net /COL8_L
-      (pins J14-2 J18-1 D61-1)
+      (pins D61-1 J14-2 J18-1)
     )
     (net "Net-(J7-Pad1)"
       (pins J24-1 J7-1)
@@ -9137,19 +9542,19 @@
       (pins J6-9 D99-1 D97-1 J15-1)
     )
     (net /ROW1_L
-      (pins J33-1 SW66-1 SW90-1 SW96-1 SW84-1 SW60-1 SW78-1 SW72-1)
+      (pins SW66-1 SW90-1 SW96-1 SW84-1 SW60-1 SW78-1 SW72-1 J33-1)
     )
     (net /ROW2_L
-      (pins J36-1 SW62-1 SW87-1 SW93-1 SW81-1 SW69-1 SW52-1 SW75-1 SW57-1)
+      (pins SW62-1 SW87-1 SW93-1 SW81-1 SW69-1 J36-1 SW52-1 SW75-1 SW57-1)
     )
     (net /ROW3_L
-      (pins J35-1 SW53-1 SW58-1 SW76-1 SW88-1 SW70-1 SW94-1 SW63-1 SW82-1)
+      (pins SW53-1 SW58-1 SW76-1 SW88-1 J35-1 SW70-1 SW94-1 SW63-1 SW82-1)
     )
     (net /ROW4_L
-      (pins J34-1 SW85-1 SW67-1 SW56-1 SW73-1 SW91-1 SW79-1 SW61-1)
+      (pins SW85-1 SW67-1 SW56-1 SW73-1 SW91-1 SW79-1 J34-1 SW61-1)
     )
     (net /ROW5_L
-      (pins J32-1 SW89-1 SW54-1 J118-1 SW71-1 SW77-1 SW95-1 SW64-1 SW59-1 SW83-1)
+      (pins SW89-1 J32-1 SW54-1 J118-1 SW71-1 SW77-1 SW95-1 SW64-1 SW59-1 SW83-1)
     )
     (net /ROW6_L
       (pins J4-1 SW80-1 SW74-1 SW86-1 SW68-1 SW92-1)
@@ -9164,13 +9569,13 @@
       (pins D8-1 J106-1 J106-2 D7-1)
     )
     (net "Net-(D44-Pad1)"
-      (pins J37-2 D44-1)
+      (pins D44-1 J37-2)
     )
     (net "Net-(D9-Pad1)"
       (pins J108-1 J108-2 D10-1 D9-1)
     )
     (net "Net-(D47-Pad1)"
-      (pins J37-1 D47-1)
+      (pins D47-1 J37-1)
     )
     (net "Net-(D3-Pad1)"
       (pins J114-1 J114-2 D4-1 D3-1)
@@ -9188,7 +9593,7 @@
       (pins J85-1 J85-2 D34-1 D33-1)
     )
     (net "Net-(D67-Pad1)"
-      (pins J14-3 J9-1 D67-1)
+      (pins J14-3 D67-1 J9-1)
     )
     (net "Net-(D43-Pad1)"
       (pins D43-1 J72-1 J72-2)
@@ -9200,13 +9605,13 @@
       (pins D14-1 D13-1 J100-1 J100-2)
     )
     (net "Net-(J6-Pad1)"
-      (pins J22-1 J6-1)
+      (pins J6-1 J22-1)
     )
     (net "Net-(J6-Pad2)"
-      (pins J22-2 J6-2)
+      (pins J6-2 J22-2)
     )
     (net "Net-(J6-Pad3)"
-      (pins J22-3 J6-3)
+      (pins J6-3 J22-3)
     )
     (net "Net-(D18-Pad1)"
       (pins J98-1 D16-1 D18-1 J7-7)
@@ -9245,7 +9650,7 @@
       (pins J116-1 D57-1)
     )
     (net "Net-(D58-Pad1)"
-      (pins J16-1 D58-1)
+      (pins D58-1 J16-1)
     )
     (net "Net-(D59-Pad1)"
       (pins J63-1 J63-2 D59-1)
@@ -9257,7 +9662,7 @@
       (pins D62-1 D63-1 J60-1 J60-2)
     )
     (net "Net-(D65-Pad1)"
-      (pins J12-1 D65-1)
+      (pins D65-1 J12-1)
     )
     (net "Net-(D66-Pad1)"
       (pins D66-1 J58-1 J58-2 D64-1)
@@ -9305,22 +9710,22 @@
       (pins J24-3 J7-3)
     )
     (net "Net-(J26-Pad1)"
-      (pins J26-1 SW7-1 SW31-1 SW19-1 SW1-1 SW13-1 SW37-1 SW25-1)
+      (pins SW7-1 SW31-1 SW19-1 SW1-1 SW13-1 SW37-1 SW25-1 J26-1)
     )
     (net "Net-(J27-Pad1)"
       (pins J27-1 SW20-1 SW26-1 SW32-1 SW2-1 SW8-1 SW38-1 SW14-1 SW42-1)
     )
     (net "Net-(J28-Pad1)"
-      (pins J28-1 SW43-1 SW3-1 SW21-1 SW9-1 SW15-1 SW27-1 SW39-1 SW33-1)
+      (pins SW43-1 SW3-1 SW21-1 SW9-1 SW15-1 SW27-1 SW39-1 SW33-1 J28-1)
     )
     (net "Net-(J29-Pad1)"
-      (pins J29-1 SW5-1 SW11-1 SW29-1 SW17-1 SW41-1 SW36-1 SW23-1)
+      (pins SW5-1 SW11-1 SW29-1 SW17-1 SW41-1 SW36-1 J29-1 SW23-1)
     )
     (net "Net-(J30-Pad1)"
-      (pins J30-1 SW28-1 SW34-1 SW4-1 SW16-1 SW22-1 SW10-1 SW44-1 SW40-1)
+      (pins SW28-1 SW34-1 SW4-1 J30-1 SW16-1 SW22-1 SW10-1 SW44-1 SW40-1)
     )
     (net "Net-(J31-Pad1)"
-      (pins J31-1 SW6-1 SW18-1 SW12-1 SW30-1 SW24-1)
+      (pins SW6-1 J31-1 SW18-1 SW12-1 SW30-1 SW24-1)
     )
     (net "Net-(J128-Pad1)"
       (pins D35-1 J128-1)

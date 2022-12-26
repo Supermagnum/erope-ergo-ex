@@ -3,32 +3,6 @@
   (base_design "Europe-flex.dsn")
   (placement
     (resolution um 10)
-    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place J37 3335000 -2500000 front 0)
-      (place J24 4050000 -2530000 front 90)
-      (place J22 1955000 -2530000 front 90)
-      (place J14 2895000 -2500000 front 0)
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
-      (place J45 2228500 -1096500 front 0)
-      (place J36 1252400 -1100600 front 0)
-      (place J35 2932600 -1471100 front 0)
-      (place J34 1263300 -1740000 front 0)
-      (place J33 1241800 -827800 front 0)
-      (place J32 1270650 -2130950 front 0)
-      (place J31 4000000 -2382400 front 0)
-      (place J30 3280000 -2100000 front 0)
-      (place J29 3519200 -1779500 front 0)
-      (place J28 3282000 -1628200 front 0)
-      (place J27 3274200 -1139300 front 0)
-      (place J26 3269850 -864650 front 0)
-      (place J20 2840000 -2645000 front 0)
-      (place J18 2610000 -2525000 front 0)
-      (place J16 2940000 -2135000 front 0)
-      (place J12 2700000 -2160000 front 0)
-      (place J9 2545000 -2410000 front 0)
-      (place J4 1269750 -2381450 front 0)
-    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
       (place D23 4321000 -2220000 front 0)
     )
@@ -38,7 +12,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
       (place D91 1351900 -2529300 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
       (place J137 2610000 -3106600 front 0)
     )
     (component MountingHole:MountingHole_4.3mm_M4_DIN965_Pad
@@ -47,35 +21,35 @@
       (place H24 3355800 -2620000 front 0)
       (place H9 3045000 -1545000 front 0)
       (place H4 915000 -1545000 front 0)
-      (place H23 3760000 -2320000 front 0)
-      (place H27 5370000 -865000 front 0)
+      (place H23 3760000 -2315000 front 0)
+      (place H27 5330000 -865000 front 0)
       (place H19 2898000 -2617000 front 0)
       (place H16 3045000 -1795000 front 0)
-      (place H18 920000 -2440000 front 0)
+      (place H18 910000 -2440000 front 0)
       (place H25 5330000 -1545000 front 0)
       (place H10 2603000 -2457000 front 0)
       (place H17 2461000 -2321000 front 0)
       (place H37 3195000 -1545000 front 0)
-      (place H1 920000 -870000 front 0)
+      (place H1 915000 -870000 front 0)
       (place H12 3034000 -865000 front 0)
       (place H5 3295000 -3100000 front 0)
-      (place H32 5360000 -1140000 front 0)
+      (place H32 5330000 -1140000 front 0)
       (place H30 3642800 -2459000 front 0)
       (place H21 3190000 -870000 front 0)
       (place H28 5330000 -1795000 front 0)
-      (place H36 5280000 -480000 front 0)
+      (place H36 5330000 -480000 front 0)
       (place H38 3195000 -2115000 front 0)
       (place H13 2807800 -3642600 front 0)
       (place H8 910000 -2190000 front 0)
       (place H22 3190000 -1795000 front 0)
       (place H2 915000 -1795000 front 0)
-      (place H31 5350000 -2190000 front 0)
+      (place H31 5325000 -2190000 front 0)
       (place H7 3845000 -3100000 front 0)
-      (place H29 5350000 -2440000 front 0)
+      (place H29 5325000 -2440000 front 0)
       (place H11 912000 -1154000 front 0)
       (place H14 2385000 -3110800 front 0)
       (place H6 3479200 -3630800 front 0)
-      (place H33 940000 -475000 front 0)
+      (place H33 915000 -475000 front 0)
       (place H3 3040000 -2110000 front 0)
       (place H35 3205000 -475000 front 0)
       (place H20 3036000 -1137000 front 0)
@@ -86,6 +60,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::2"
       (place D61 2676140 -2583120 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place J24 4050000 -2530000 front 90)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::2
       (place J39 1990800 -1074600 front 0)
@@ -105,7 +82,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::1
       (place SW3 5140200 -1507600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::2
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
       (place J141 3667360 -3096720 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::5"
@@ -123,6 +100,9 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::3
       (place J53 2452500 -1758700 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::2
+      (place J4 1269750 -2381450 front 0)
+    )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::2
       (place SW28 4139200 -2093600 front 0)
     )
@@ -133,12 +113,15 @@
       (place D95 1351900 -2289300 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::3
-      (place J110 5280000 -2205000 front 0)
+      (place J110 4950000 -2145000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::4
+      (place J45 2228500 -1096500 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::3
       (place SW80 1655300 -2329500 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::4
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::5
       (place J152 3896360 -528320 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::9"
@@ -162,6 +145,9 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::4
       (place J102 4710000 -1741440 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::6
+      (place J32 1270650 -2130950 front 0)
+    )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::1
       (place R11 2908300 -3543400 front 0)
     )
@@ -177,7 +163,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::7
       (place SW11 4852200 -1745600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::5
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::7
       (place J148 5153660 -505460 front 0)
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::2
@@ -189,8 +175,11 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::8
       (place SW7 4840200 -814600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::6
-      (place J120 3462860 -2351220 front 0)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::8
+      (place J27 3274200 -1139300 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::9
+      (place J120 3465000 -2350000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::9
       (place SW58 2601400 -1484200 front 0)
@@ -249,8 +238,8 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::18"
       (place D62 2546000 -1655000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::7
-      (place J70 3507760 -2638560 front 0)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::10
+      (place J70 3520000 -2130000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::17
       (place SW15 4616200 -1483600 front 0)
@@ -261,10 +250,10 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::20"
       (place D82 1831900 -2219300 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::8
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::11
       (place J133 2024380 -563880 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::9
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::12
       (place J142 4582160 -502920 front 0)
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::3
@@ -276,7 +265,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::21"
       (place D56 2862340 -2683120 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::10
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::13
       (place J98 4710000 -2160000 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::22"
@@ -294,20 +283,26 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::21
       (place SW62 2376400 -1082000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::11
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::14
       (place J119 2869137 -2402226 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::22
       (place SW87 1425400 -1109000 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::1
+      (place J14 2895000 -2500000 front 0)
+    )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::9
       (place J108 4967100 -1785500 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::12
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::15
       (place J139 3705460 -3096720 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::13
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::16
       (place J146 4876800 -502920 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::17
+      (place J35 2932600 -1471100 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::24"
       (place D98 1061900 -1925000 front 0)
@@ -339,22 +334,28 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::29"
       (place D100 1066000 -1275000 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::18
+      (place J30 3280000 -2100000 front 0)
+    )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::10
       (place J85 3998500 -1757400 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::30"
       (place D99 1071900 -2289300 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::14
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::19
       (place J92 4475000 -2140000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::15
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::20
       (place J43 1746000 -2129200 front 0)
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::4
       (place R4 4860800 -540000 front 180)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::16
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::2
+      (place J37 3335000 -2500000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::21
       (place J130 1173480 -508000 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::31"
@@ -369,7 +370,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::26
       (place SW81 1665400 -1061000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::17
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::22
       (place J147 3591160 -3096720 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::11
@@ -377,6 +378,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::33"
       (place D41 3594800 -1873000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical::3
+      (place J22 1955000 -2530000 front 90)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::34"
       (place D34 3844800 -1873000 front 0)
@@ -386,6 +390,9 @@
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::6
       (place SW54 2771500 -2091100 front 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::23
+      (place J20 2840000 -2645000 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::36"
       (place D58 2775700 -2229300 front 0)
@@ -402,8 +409,11 @@
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::5
       (place R12 1079200 -560000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::18
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::24
       (place J134 2788660 -3463720 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::25
+      (place J31 4000000 -2382400 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::28
       (place SW47 3386597 -2763306 front 30)
@@ -417,7 +427,7 @@
     (component "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp::1"
       (place D49 4520647 -504400 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::19
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::26
       (place J144 3715620 -3471060 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::29
@@ -426,7 +436,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::39"
       (place D14 4543800 -1246600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::20
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::27
       (place J65 2460000 -2145000 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::13
@@ -447,10 +457,10 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::33
       (place SW46 3472597 -2437600 front 30)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::21
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::28
       (place J151 3746100 -3096720 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::22
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::29
       (place J143 4355000 -540000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::34
@@ -462,7 +472,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::42"
       (place D33 3841000 -1633000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::23
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::30
       (place J145 3629260 -3096720 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::35
@@ -483,13 +493,13 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::37
       (place SW12 4852200 -2380600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::24
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::31
       (place J128 4160100 -2533500 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::38
       (place SW84 1711400 -813200 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::25
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::32
       (place J131 2535000 -3107400 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::44"
@@ -517,18 +527,18 @@
       (place D65 2551900 -2269300 front 0)
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical::1
-      (place J8 4030250 -3193500 front 0)
+      (place J8 3930000 -3198000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::26
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::33
       (place J86 4235000 -2150000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::27
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::34
       (place J150 2324100 -530860 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::48"
       (place D77 2066000 -1625000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::28
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::35
       (place J117 2811300 -2603860 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::41
@@ -540,7 +550,7 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::15
       (place J41 1972500 -1713100 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::29
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::36
       (place J149 2645000 -3105580 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::49"
@@ -555,14 +565,17 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::52"
       (place D28 4084800 -1853000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::30
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::37
       (place J118 2940000 -2075540 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::53"
       (place D71 2305700 -2269300 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::31
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::38
       (place J74 3755000 -2180000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::39
+      (place J29 3519200 -1779500 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::42
       (place SW1 5127200 -815600 front 0)
@@ -588,7 +601,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::44
       (place SW51 2823137 -2443026 front 330)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::32
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::40
       (place J21 1500000 -2175000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::45
@@ -603,7 +616,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::47
       (place SW86 1415300 -2377500 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::33
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::41
       (place J116 2745000 -2335000 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::16
@@ -633,7 +646,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::61"
       (place D21 4324800 -1593000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::34
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::42
       (place J122 2197000 -529000 front 0)
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::10
@@ -669,6 +682,9 @@
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::11
       (place R5 3339600 -3540000 front 180)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::43
+      (place J36 1252400 -1100600 front 0)
+    )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::51
       (place SW45 3593597 -2644906 front 30)
     )
@@ -681,10 +697,10 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::63"
       (place D75 2071900 -2239300 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::35
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::44
       (place J49 1980000 -2110000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::36
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::45
       (place J55 2220000 -2130000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::54
@@ -696,7 +712,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::55
       (place SW70 2125400 -1461200 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::37
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::46
       (place J104 4950000 -2200000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB::10
@@ -708,10 +724,13 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::57
       (place SW72 2284400 -811200 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::47
+      (place J18 2610000 -2525000 front 0)
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::64"
       (place D19 4200800 -968000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::38
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::48
       (place J138 2024380 -513080 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::65"
@@ -720,13 +739,16 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::58
       (place SW13 4554200 -816600 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::49
+      (place J12 2700000 -2160000 front 0)
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::66"
       (place D36 3711600 -2484000 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::67"
       (place D59 2769800 -1735000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::39
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::50
       (place J140 4295140 -502920 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::21
@@ -738,7 +760,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::68"
       (place D32 3833800 -1246600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::40
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::51
       (place J153 4029000 -527000 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::69"
@@ -746,6 +768,9 @@
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::60
       (place SW33 3901200 -1483600 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::52
+      (place J16 2940000 -2135000 front 0)
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical::3
       (place J5 2305000 -3207600 front 0)
@@ -755,6 +780,12 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::71"
       (place D76 2071900 -2479300 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::53
+      (place J33 1241800 -827800 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::54
+      (place J9 2545000 -2410000 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::72"
       (place D84 1940000 -977000 front 0)
@@ -792,7 +823,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::76"
       (place D31 3637000 -968000 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::41
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::55
       (place J68 3430000 -2660000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::63
@@ -804,13 +835,16 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::26
       (place J11 1251900 -1148800 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::42
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::56
+      (place J34 1263300 -1740000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::57
       (place J132 1457960 -510540 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::27
       (place J94 4458700 -1080700 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::43
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::58
       (place J135 2575000 -3106700 front 0)
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::78"
@@ -822,7 +856,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::65
       (place SW38 3652200 -1088200 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::44
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::59
       (place J136 1747520 -508000 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::66
@@ -855,6 +889,9 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::70
       (place SW75 1901400 -1035000 front 0)
     )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::60
+      (place J26 3269850 -864650 front 0)
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::83"
       (place D30 4081000 -2480000 front 0)
     )
@@ -863,6 +900,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::84"
       (place D6 5034800 -2530000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::61
+      (place J28 3282000 -1628200 front 0)
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::72
       (place SW65 2498137 -2531026 front 330)
@@ -879,8 +919,8 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::75
       (place SW59 2608300 -2115500 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::45
-      (place J121 3462860 -2351220 front 0)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::62
+      (place J121 3580000 -2405000 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::29
       (place J90 4233900 -1735900 front 0)
@@ -918,7 +958,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::92"
       (place D57 2782340 -2353120 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::46
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::63
       (place J129 2495000 -3107400 front 0)
     )
     (component "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp::3"
@@ -936,7 +976,7 @@
     (component Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB::80
       (place SW23 4378200 -1675600 front 0)
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::47
+    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::64
       (place J15 1270000 -2200000 front 0)
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::30
@@ -993,27 +1033,30 @@
     (network_out 
       (net COL1R
         (wire
-          (path B.Cu 12400
-            4030250 -3396700
-            3890925 -3257375
-            3890925 -3160318
-            3891443 -3159800
-            3891443 -3080872
-            3864273 -3053702
-            3681073 -3053702
-            3650158 -3084617
-            3650158 -3105163
-            3635236 -3120085
-            3627290 -3120085
-            3574425 -3172950
-            3359900 -3172950
+          (path F.Cu 12400
+            3283445 -3354770
+            3266218 -3371997
+            3266218 -3396911
+            3276603 -3407296
+            3902954 -3407296
+            3909050 -3401200
           )
         )
         (wire
           (path B.Cu 12400
             3359900 -3211900
-            3359900 -3172950
+            3359900 -3303690
+            3308820 -3354770
+            3283445 -3354770
           )
+        )
+        (wire
+          (path F.Cu 12400
+            3930000 -3401200
+            3909050 -3401200
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3283445 -3354770
         )
       )
       (net "Net-(D1-Pad2)"
@@ -1120,28 +1163,33 @@
       )
       (net COL2R
         (wire
-          (path F.Cu 12400
-            3385300 -3232850
-            3317350 -3300800
-            3286925 -3300800
-            3234431 -3353294
-            3234431 -3429027
-            3294050 -3488646
-            3891954 -3488646
-            4009300 -3371300
+          (path B.Cu 12400
+            3930000 -3375800
+            3912762 -3358562
+            3912762 -3102350
+            3864114 -3053702
+            3773036 -3053702
+            3763484 -3063254
           )
         )
         (wire
           (path F.Cu 12400
-            4030250 -3371300
-            4009300 -3371300
+            3525551 -3072207
+            3534504 -3063254
+            3763484 -3063254
           )
         )
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3385300 -3211900
-            3385300 -3232850
+            3385300 -3105650
+            3418743 -3072207
+            3525551 -3072207
           )
+        )
+        (via "Via[0-1]_800:400_um" 3763484 -3063254
+        )
+        (via "Via[0-1]_800:400_um" 3525551 -3072207
         )
       )
       (net "Net-(D7-Pad2)"
@@ -1247,22 +1295,39 @@
       (net COL3R
         (wire
           (path F.Cu 12400
-            3744627 -3281427
-            3683427 -3281427
-            3613900 -3211900
+            3930000 -3350400
+            3909050 -3350400
           )
         )
-        (via "Via[0-1]_800:400_um" 3744627 -3281427
+        (wire
+          (path F.Cu 12400
+            3856203 -3344074
+            3902724 -3344074
+            3909050 -3350400
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3856203 -3344074
         )
         (wire
           (path B.Cu 12400
-            4030250 -3345900
-            4047697 -3363347
-            4047697 -3403687
-            4037024 -3414360
-            3821997 -3414360
-            3744627 -3336990
-            3744627 -3281427
+            3730109 -3356188
+            3732464 -3358543
+            3800579 -3358543
+            3817505 -3341617
+            3817505 -3331659
+            3826416 -3322748
+            3839482 -3322748
+            3856203 -3339469
+            3856203 -3344074
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3730109 -3356188
+        )
+        (wire
+          (path F.Cu 12400
+            3613900 -3211900
+            3613900 -3239979
+            3730109 -3356188
           )
         )
       )
@@ -1370,50 +1435,40 @@
       )
       (net COL4R
         (wire
-          (path F.Cu 12400
-            3452557 -3289745
-            3421101 -3321201
-            3421101 -3327900
-            3421100 -3327900
-          )
-        )
-        (wire
           (path B.Cu 12400
             3639300 -3211900
-            3639300 -3216015
-            3565570 -3289745
-            3452557 -3289745
+            3639300 -3172950
           )
         )
         (wire
           (path F.Cu 12400
-            4030250 -3320500
-            4009300 -3320500
+            3755504 -3078837
+            3769545 -3078837
+            3794680 -3053702
+            3889308 -3053702
           )
         )
         (wire
           (path B.Cu 12400
-            3273165 -3425615
-            3262117 -3425615
-            3249834 -3413332
-            3249834 -3372476
-            3276209 -3346101
-            3402899 -3346101
-            3421100 -3327900
+            3930000 -3325000
+            3947380 -3307620
+            3947380 -3111774
+            3889308 -3053702
           )
         )
-        (via "Via[0-1]_800:400_um" 3273165 -3425615
+        (via "Via[0-1]_800:400_um" 3889308 -3053702
+        )
+        (via "Via[0-1]_800:400_um" 3755504 -3078837
         )
         (wire
-          (path F.Cu 12400
-            4009300 -3320500
-            3904185 -3425615
-            3273165 -3425615
+          (path B.Cu 12400
+            3639300 -3172950
+            3686918 -3125332
+            3686918 -3085746
+            3709091 -3063573
+            3740240 -3063573
+            3755504 -3078837
           )
-        )
-        (via "Via[0-1]_800:400_um" 3421100 -3327900
-        )
-        (via "Via[0-1]_800:400_um" 3452557 -3289745
         )
       )
       (net "Net-(D19-Pad2)"
@@ -1518,28 +1573,25 @@
       (net COL5R
         (wire
           (path B.Cu 12400
-            3264866 -3407067
-            3264866 -3378558
-            3282071 -3361353
-            3519152 -3361353
-            3664700 -3215805
             3664700 -3211900
+            3664700 -3232850
           )
         )
         (wire
           (path F.Cu 12400
-            4030250 -3295100
-            4009300 -3295100
+            3823156 -3283862
+            3838894 -3299600
+            3930000 -3299600
           )
         )
         (wire
-          (path F.Cu 12400
-            3264866 -3407067
-            3897333 -3407067
-            4009300 -3295100
+          (path B.Cu 12400
+            3664700 -3232850
+            3772144 -3232850
+            3823156 -3283862
           )
         )
-        (via "Via[0-1]_800:400_um" 3264866 -3407067
+        (via "Via[0-1]_800:400_um" 3823156 -3283862
         )
       )
       (net "Net-(D25-Pad2)"
@@ -1648,39 +1700,42 @@
       )
       (net COL6R
         (wire
+          (path F.Cu 12400
+            3930000 -3274200
+            3909050 -3274200
+          )
+        )
+        (wire
           (path B.Cu 12400
-            3709729 -3072207
-            3700343 -3072207
-            3688258 -3084292
-            3688258 -3157082
-            3672245 -3173095
+            3300834 -3486980
+            3335709 -3452105
+            3773435 -3452105
+            3889153 -3336387
+            3889153 -3268990
           )
+        )
+        (via "Via[0-1]_800:400_um" 3889153 -3268990
         )
         (wire
           (path F.Cu 12400
-            4030250 -3269700
-            3891600 -3131050
-            3891600 -3081261
-            3864138 -3053799
-            3728137 -3053799
-            3709729 -3072207
+            3909050 -3274200
+            3903840 -3268990
+            3889153 -3268990
           )
         )
-        (via "Via[0-1]_800:400_um" 3709729 -3072207
-        )
-        (wire
-          (path F.Cu 12400
-            3690100 -3190950
-            3672245 -3173095
-          )
+        (via "Via[0-1]_800:400_um" 3300834 -3486980
         )
         (wire
           (path F.Cu 12400
             3690100 -3211900
-            3690100 -3190950
+            3609498 -3131298
+            3427990 -3131298
+            3350396 -3053704
+            3275785 -3053704
+            3220795 -3108694
+            3220795 -3406941
+            3300834 -3486980
           )
-        )
-        (via "Via[0-1]_800:400_um" 3672245 -3173095
         )
       )
       (net "Net-(D31-Pad2)"
@@ -1786,34 +1841,31 @@
       )
       (net COL7R
         (wire
-          (path F.Cu 12400
-            3908381 -3201472
-            3808829 -3201472
-            3764997 -3157640
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            3740900 -3172950
-            3756210 -3157640
-            3764997 -3157640
-          )
-        )
-        (wire
           (path B.Cu 12400
             3740900 -3211900
             3740900 -3172950
           )
         )
-        (via "Via[0-1]_800:400_um" 3764997 -3157640
+        (wire
+          (path F.Cu 12400
+            3930000 -3248800
+            3909050 -3248800
+          )
         )
-        (via "Via[0-1]_800:400_um" 3908381 -3201472
+        (wire
+          (path F.Cu 12400
+            3864645 -3239534
+            3899784 -3239534
+            3909050 -3248800
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3864645 -3239534
         )
         (wire
           (path B.Cu 12400
-            4030250 -3244300
-            3951209 -3244300
-            3908381 -3201472
+            3740900 -3172950
+            3798061 -3172950
+            3864645 -3239534
           )
         )
       )
@@ -1899,38 +1951,25 @@
       )
       (net COL8R
         (wire
+          (path F.Cu 12400
+            3827242 -3223400
+            3930000 -3223400
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            3787250 -3211900
+            3798750 -3223400
+            3827242 -3223400
+          )
+        )
+        (wire
           (path B.Cu 12400
             3766300 -3211900
-            3766300 -3190950
+            3787250 -3211900
           )
         )
-        (wire
-          (path B.Cu 12400
-            3737063 -3133319
-            3761749 -3133319
-            3780126 -3151696
-            3780126 -3177124
-            3766300 -3190950
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3737063 -3133319
-        )
-        (wire
-          (path F.Cu 12400
-            3905826 -3166490
-            3809028 -3166490
-            3775857 -3133319
-            3737063 -3133319
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3905826 -3166490
-        )
-        (wire
-          (path B.Cu 12400
-            4030250 -3218900
-            3958236 -3218900
-            3905826 -3166490
-          )
+        (via "Via[0-1]_800:400_um" 3827242 -3223400
         )
       )
       (net "Net-(D42-Pad2)"
@@ -1974,7 +2013,10 @@
         (wire
           (path B.Cu 12400
             3551304 -2698653
-            3551304 -2657146
+            3581204 -2668753
+            3597620 -2668753
+            3613485 -2652888
+            3613485 -2633935
             3594000 -2614450
           )
         )
@@ -1993,25 +2035,48 @@
       (net "Arrow-Right"
         (wire
           (path B.Cu 12400
-            4030250 -3193500
-            4062778 -3226028
-            4062778 -3409873
-            4043084 -3429567
-            3657142 -3429567
-            3639300 -3411725
+            3881707 -3188149
+            3881707 -3246384
+            3802604 -3325487
+            3802604 -3335445
+            3794422 -3343627
+            3740550 -3343627
+            3738210 -3341287
+            3666763 -3341287
+            3639300 -3368750
+          )
+        )
+        (wire
+          (path B.Cu 12400
             3639300 -3389700
+            3639300 -3368750
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            3930000 -3198000
+            3909050 -3198000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3881707 -3188149
+        )
+        (wire
+          (path F.Cu 12400
+            3909050 -3198000
+            3899199 -3188149
+            3881707 -3188149
           )
         )
       )
       (net "Net-(D46-Pad2)"
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3467800 -2394000
             3467800 -2414450
           )
         )
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3467800 -2414450
             3430304 -2451946
             3430304 -2491347
@@ -2051,22 +2116,22 @@
       (net PWM4R
         (wire
           (path B.Cu 12400
+            3832406 -3337831
+            3832406 -3371794
+            3779298 -3424902
+            3677604 -3424902
+            3664700 -3411998
             3664700 -3389700
-            3664700 -3340281
-            3753310 -3251671
-            3777135 -3251671
-            3810513 -3218293
-            3810513 -3131238
-            3758793 -3079518
-            3733935 -3079518
-            3726410 -3087043
-            3726410 -3096720
           )
         )
+        (via "Via[0-1]_800:400_um" 3832406 -3337831
+        )
         (wire
-          (path B.Cu 12400
+          (path F.Cu 12400
             3705460 -3096720
-            3726410 -3096720
+            3799268 -3190528
+            3799268 -3304693
+            3832406 -3337831
           )
         )
       )
@@ -2082,62 +2147,22 @@
       (net PWM3R
         (wire
           (path B.Cu 12400
+            3251299 -3271603
+            3248524 -3268828
+            3248524 -3081081
+            3275903 -3053702
+            3624342 -3053702
             3667360 -3096720
-            3667360 -3117670
           )
+        )
+        (via "Via[0-1]_800:400_um" 3251299 -3271603
         )
         (wire
           (path F.Cu 12400
-            3402850 -3154137
-            3314153 -3154137
-            3262895 -3205395
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            3498675 -3346452
-            3460473 -3308250
-            3294640 -3308250
-            3262895 -3276505
-            3262895 -3205395
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3498675 -3346452
-            3646852 -3346452
             3690100 -3389700
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3498675 -3346452
-        )
-        (via "Via[0-1]_800:400_um" 3262895 -3205395
-        )
-        (via "Via[0-1]_800:400_um" 3402850 -3154137
-        )
-        (wire
-          (path B.Cu 12400
-            3584750 -3123372
-            3433615 -3123372
-            3402850 -3154137
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3584750 -3123372
-        )
-        (wire
-          (path F.Cu 12400
-            3633462 -3134986
-            3621848 -3123372
-            3584750 -3123372
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3633462 -3134986
-        )
-        (wire
-          (path B.Cu 12400
-            3667360 -3117670
-            3650044 -3134986
-            3633462 -3134986
+            3597976 -3297576
+            3277272 -3297576
+            3251299 -3271603
           )
         )
       )
@@ -2153,13 +2178,13 @@
       (net PWM2R
         (wire
           (path F.Cu 12400
-            3629260 -3096720
-            3680738 -3148198
-            3727420 -3148198
-            3783585 -3204363
-            3783585 -3331302
-            3746137 -3368750
             3740900 -3368750
+            3746137 -3368750
+            3783770 -3331117
+            3783770 -3204685
+            3706932 -3127847
+            3660387 -3127847
+            3629260 -3096720
           )
         )
         (wire
@@ -2181,33 +2206,54 @@
       (net PWM1R
         (wire
           (path F.Cu 12400
-            3788864 -3360153
-            3766300 -3382717
-            3766300 -3389700
+            3591160 -3096720
+            3609045 -3078835
+            3720898 -3078835
           )
         )
         (wire
           (path B.Cu 12400
-            3827857 -3150907
-            3827857 -3321160
-            3788864 -3360153
+            3888889 -3129381
+            3888889 -3149793
+            3866111 -3172571
+            3820292 -3172571
+            3772182 -3124461
+            3744300 -3124461
+            3727427 -3107588
+            3727427 -3085364
+            3720898 -3078835
           )
         )
-        (via "Via[0-1]_800:400_um" 3788864 -3360153
-        )
-        (via "Via[0-1]_800:400_um" 3827857 -3150907
+        (via "Via[0-1]_800:400_um" 3720898 -3078835
         )
         (wire
           (path F.Cu 12400
-            3591160 -3096720
-            3608850 -3079030
-            3679074 -3079030
-            3684562 -3084518
-            3684562 -3105653
-            3692830 -3113921
-            3790871 -3113921
-            3827857 -3150907
+            3766300 -3389700
+            3854372 -3389700
+            3855643 -3390971
           )
+        )
+        (wire
+          (path B.Cu 12400
+            3965885 -3159841
+            3965885 -3389716
+            3936932 -3418669
+            3883341 -3418669
+            3855643 -3390971
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            3965885 -3159841
+            3935425 -3129381
+            3888889 -3129381
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3888889 -3129381
+        )
+        (via "Via[0-1]_800:400_um" 3965885 -3159841
+        )
+        (via "Via[0-1]_800:400_um" 3855643 -3390971
         )
       )
       (net "Net-(D52-Pad1)"
@@ -3081,31 +3127,23 @@
       (net COL2
         (wire
           (path B.Cu 12400
-            2864700 -3389700
             2864700 -3428650
+            2704621 -3428650
+            2674523 -3458748
+            2399298 -3458748
+            2325950 -3385400
           )
         )
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             2305000 -3385400
             2325950 -3385400
           )
         )
         (wire
-          (path F.Cu 12400
-            2831316 -3425607
-            2819784 -3437139
-            2377689 -3437139
-            2325950 -3385400
-          )
-        )
-        (via "Via[0-1]_800:400_um" 2831316 -3425607
-        )
-        (wire
           (path B.Cu 12400
+            2864700 -3389700
             2864700 -3428650
-            2861657 -3425607
-            2831316 -3425607
           )
         )
       )
@@ -3211,18 +3249,9 @@
       )
       (net COL1
         (wire
-          (path F.Cu 12400
-            2858829 -3453119
-            2830845 -3481103
-            2396253 -3481103
-            2325950 -3410800
-          )
-        )
-        (wire
           (path B.Cu 12400
-            2890100 -3428650
-            2865631 -3453119
-            2858829 -3453119
+            2305000 -3410800
+            2325950 -3410800
           )
         )
         (wire
@@ -3232,12 +3261,12 @@
           )
         )
         (wire
-          (path F.Cu 12400
-            2305000 -3410800
+          (path B.Cu 12400
+            2890100 -3428650
+            2837285 -3481465
+            2396615 -3481465
             2325950 -3410800
           )
-        )
-        (via "Via[0-1]_800:400_um" 2858829 -3453119
         )
       )
       (net "Net-(D97-Pad2)"
@@ -3346,29 +3375,18 @@
       )
       (net sdaR
         (wire
-          (path F.Cu 12400
-            3350494 -3293349
-            3350494 -3313544
-            3291606 -3372432
-            3276275 -3372432
-            3249880 -3398827
-            3249880 -3423403
-            3278907 -3452430
-            3305750 -3452430
+          (path B.Cu 12400
+            3322250 -3586600
+            3312818 -3586600
+            3266200 -3539982
+            3266200 -3250350
+            3283700 -3232850
           )
         )
         (wire
           (path B.Cu 12400
-            3283700 -3232850
-            3294651 -3232850
-            3350494 -3288693
-            3350494 -3293349
-          )
-        )
-        (wire
-          (path F.Cu 12400
             3322250 -3586600
-            3339600 -3569250
+            3322250 -3557350
             3339600 -3540000
           )
         )
@@ -3378,30 +3396,18 @@
             3283700 -3232850
           )
         )
-        (wire
-          (path B.Cu 12400
-            3305750 -3452430
-            3339600 -3486280
-            3339600 -3540000
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3305750 -3452430
-        )
-        (via "Via[0-1]_800:400_um" 3350494 -3293349
-        )
       )
       (net sclR
         (wire
-          (path B.Cu 12400
-            3309100 -3172950
-            3274267 -3172950
-            3234869 -3212348
-            3234869 -3433641
-            3266954 -3465726
-            3266954 -3540905
-            3290961 -3564912
-            3290961 -3579779
-            3314734 -3603552
+          (path F.Cu 12400
+            3353250 -3638600
+            3355742 -3636108
+            3355742 -3520815
+            3236194 -3401267
+            3236194 -3265635
+            3256746 -3245083
+            3275917 -3245083
+            3309100 -3211900
           )
         )
         (wire
@@ -3410,22 +3416,6 @@
             3340000 -3651850
             3340000 -3710800
           )
-        )
-        (wire
-          (path F.Cu 12400
-            3314734 -3603552
-            3323905 -3603552
-            3353250 -3632897
-            3353250 -3638600
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            3309100 -3211900
-            3309100 -3172950
-          )
-        )
-        (via "Via[0-1]_800:400_um" 3314734 -3603552
         )
       )
       (net VCCR
@@ -3437,9 +3427,9 @@
         )
         (wire
           (path B.Cu 12400
-            3288800 -3520550
-            3288800 -3415750
             3283700 -3410650
+            3283700 -3515450
+            3288800 -3520550
           )
         )
         (wire
@@ -3451,8 +3441,7 @@
         (wire
           (path B.Cu 12400
             3272250 -3577600
-            3272250 -3592685
-            3289201 -3609636
+            3289201 -3594551
             3289201 -3691350
             3289200 -3691350
           )
@@ -3481,11 +3470,12 @@
         (wire
           (path F.Cu 12400
             2966300 -3389700
-            3011648 -3435048
-            3011648 -3447281
-            2981180 -3477749
-            2981180 -3543809
-            2952248 -3572741
+            3012275 -3389700
+            3026474 -3403899
+            3026474 -3427675
+            2982498 -3471651
+            2982498 -3542895
+            2952248 -3573145
             2952248 -3643002
             2930450 -3664800
           )
@@ -3500,19 +3490,10 @@
       )
       (net "SCL I2C0"
         (wire
-          (path F.Cu 12400
-            2915963 -3508847
-            2908300 -3516510
-            2908300 -3543400
-          )
-        )
-        (via "Via[0-1]_800:400_um" 2915963 -3508847
-        )
-        (wire
           (path B.Cu 12400
             2940900 -3389700
-            2940900 -3483910
-            2915963 -3508847
+            2940900 -3510800
+            2908300 -3543400
           )
         )
         (wire
@@ -3525,12 +3506,6 @@
       )
       (net ROW1
         (wire
-          (path B.Cu 12400
-            2839300 -3389700
-            2839300 -3368750
-          )
-        )
-        (wire
           (path F.Cu 12400
             2816300 -3106600
             2837250 -3106600
@@ -3538,42 +3513,27 @@
         )
         (wire
           (path F.Cu 12400
-            2970351 -3361275
-            3019131 -3312495
-            3019131 -3109150
-            2974570 -3064589
-            2879261 -3064589
+            2966517 -3254272
+            2970413 -3254272
+            3001310 -3223375
+            3001310 -3091329
+            2974394 -3064413
+            2879437 -3064413
             2837250 -3106600
           )
         )
-        (via "Via[0-1]_800:400_um" 2970351 -3361275
+        (via "Via[0-1]_800:400_um" 2966517 -3254272
         )
         (wire
           (path B.Cu 12400
-            2839300 -3368750
-            2962876 -3368750
-            2970351 -3361275
+            2839300 -3389700
+            2839300 -3349018
+            2934046 -3254272
+            2966517 -3254272
           )
         )
       )
       (net ROW2
-        (wire
-          (path B.Cu 12400
-            2813900 -3428650
-            2813900 -3429264
-            2908384 -3523748
-            2917004 -3523748
-            2952396 -3559140
-            2966000 -3559140
-            2997590 -3527550
-            2997590 -3461198
-            3034296 -3424492
-            3034296 -3124316
-            2974550 -3064570
-            2811980 -3064570
-            2790900 -3085650
-          )
-        )
         (wire
           (path B.Cu 12400
             2790900 -3106600
@@ -3581,21 +3541,40 @@
           )
         )
         (wire
-          (path B.Cu 12400
+          (path F.Cu 12400
             2813900 -3389700
-            2813900 -3428650
+            2845021 -3358579
+            3023413 -3358579
+            3041439 -3340553
           )
+        )
+        (wire
+          (path B.Cu 12400
+            2790900 -3085650
+            2811980 -3064570
+            2974550 -3064570
+            3041439 -3131459
+            3041439 -3340553
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3041439 -3340553
         )
       )
       (net ROW3
         (wire
+          (path F.Cu 12400
+            2763100 -3410650
+            3011513 -3410650
+          )
+        )
+        (wire
           (path B.Cu 12400
             2765500 -3106600
             2816117 -3157217
-            2981298 -3157217
-            3019003 -3194922
-            3019003 -3418710
-            2996451 -3441262
+            2980513 -3157217
+            3022934 -3199638
+            3022934 -3399229
+            3011513 -3410650
           )
         )
         (wire
@@ -3604,24 +3583,17 @@
             2763100 -3410650
           )
         )
-        (via "Via[0-1]_800:400_um" 2996451 -3441262
-        )
-        (wire
-          (path F.Cu 12400
-            2763100 -3410650
-            2965839 -3410650
-            2996451 -3441262
-          )
+        (via "Via[0-1]_800:400_um" 3011513 -3410650
         )
       )
       (net ROW5
         (wire
           (path F.Cu 12400
             2712300 -3389700
-            2853419 -3248581
-            2954040 -3248581
-            2983637 -3218984
-            2983637 -3204777
+            2872089 -3229911
+            2973182 -3229911
+            2983973 -3219120
+            2983973 -3205113
             2928807 -3149947
             2758047 -3149947
             2714700 -3106600
@@ -3632,20 +3604,20 @@
         (wire
           (path F.Cu 12400
             2737700 -3389700
-            2826600 -3300800
-            3003702 -3300800
+            2818887 -3308513
+            3008012 -3308513
           )
         )
         (wire
           (path B.Cu 12400
             2740100 -3106600
             2805619 -3172119
-            2974400 -3172119
-            3003702 -3201421
-            3003702 -3300800
+            2974225 -3172119
+            3008012 -3205906
+            3008012 -3308513
           )
         )
-        (via "Via[0-1]_800:400_um" 3003702 -3300800
+        (via "Via[0-1]_800:400_um" 3008012 -3308513
         )
       )
       (net ROW6
@@ -3738,94 +3710,73 @@
       )
       (net ROW1R
         (wire
-          (path F.Cu 12400
-            3410700 -3211900
-            3410700 -3190950
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3410700 -3190950
-            3423200 -3178450
+          (path B.Cu 12400
+            3423200 -3097200
             3423200 -3118150
           )
         )
         (wire
-          (path F.Cu 12400
-            3423200 -3097200
+          (path B.Cu 12400
+            3410700 -3211900
+            3410700 -3130650
             3423200 -3118150
           )
         )
       )
       (net ROW2R
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3436100 -3211900
-            3436100 -3190950
+            3436100 -3172950
           )
         )
         (wire
-          (path F.Cu 12400
-            3436100 -3190950
-            3448600 -3178450
+          (path B.Cu 12400
+            3436100 -3172950
+            3448600 -3160450
             3448600 -3097200
           )
         )
       )
       (net ROW3R
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3486900 -3211900
-            3486900 -3190950
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3486900 -3190950
-            3474000 -3178050
+            3486900 -3181400
+            3474000 -3168500
             3474000 -3097200
           )
         )
       )
       (net ROW5R
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3537700 -3211900
-            3537700 -3190950
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3537700 -3190950
-            3524800 -3178050
+            3537700 -3181400
+            3524800 -3168500
             3524800 -3097200
           )
         )
       )
       (net ROW4R
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3512300 -3211900
-            3512300 -3190950
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3512300 -3190950
-            3499400 -3178050
+            3512300 -3181400
+            3499400 -3168500
             3499400 -3097200
           )
         )
       )
       (net ROW6R
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3550200 -3097200
             3550200 -3118150
           )
         )
         (wire
-          (path F.Cu 12400
+          (path B.Cu 12400
             3563100 -3211900
             3563100 -3131050
             3550200 -3118150
@@ -3834,28 +3785,17 @@
       )
       (net VCCL
         (wire
-          (path F.Cu 12400
-            2959900 -3713400
-            2940450 -3713400
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            2940450 -3713400
-            2913322 -3686272
-            2913322 -3625843
-            2930865 -3608300
-            2930865 -3571635
+          (path B.Cu 12400
+            2980450 -3673800
+            2959100 -3652450
             2959100 -3543400
           )
         )
         (wire
           (path B.Cu 12400
-            2959100 -3523950
-            2959100 -3457540
-            2985252 -3431388
-            2985252 -3251802
-            2966300 -3232850
+            2980450 -3673800
+            2960300 -3693950
+            2959900 -3693950
           )
         )
         (wire
@@ -3872,14 +3812,15 @@
         )
         (wire
           (path B.Cu 12400
-            2959900 -3713400
-            2959900 -3693950
+            2966300 -3232850
+            2983502 -3250052
+            2983502 -3499548
+            2959100 -3523950
           )
         )
         (wire
           (path B.Cu 12400
-            2980450 -3673800
-            2960300 -3693950
+            2959900 -3713400
             2959900 -3693950
           )
         )
@@ -3902,56 +3843,46 @@
       (net "Net-(D46-Pad1)"
         (wire
           (path B.Cu 12400
-            3391600 -2394000
-            3412050 -2394000
-          )
-        )
-        (wire
-          (path B.Cu 12400
             3430000 -2660000
-            3516015 -2660000
-            3534734 -2641281
-            3534734 -2512168
-            3483850 -2461284
-            3467831 -2461284
-            3412050 -2405503
-            3412050 -2394000
+            3430000 -2554922
+            3391600 -2516522
+            3391600 -2394000
           )
         )
       )
       (net /COL9_L
         (wire
           (path B.Cu 12400
-            2862340 -2683120
-            2862340 -2662670
+            2840000 -2645000
+            2840000 -2665950
           )
         )
         (wire
           (path B.Cu 12400
-            2862340 -2662670
-            2857670 -2662670
-            2840000 -2645000
+            2840000 -2665950
+            2845170 -2665950
+            2862340 -2683120
           )
         )
       )
       (net /COL8_L
         (wire
           (path B.Cu 12400
-            2610000 -2525000
-            2610000 -2545950
-          )
-        )
-        (wire
-          (path B.Cu 12400
             2676140 -2583120
-            2655690 -2583120
+            2676140 -2562670
           )
         )
         (wire
           (path B.Cu 12400
-            2655690 -2583120
-            2618520 -2545950
-            2610000 -2545950
+            2610000 -2525000
+            2630950 -2525000
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            2630950 -2525000
+            2668620 -2562670
+            2676140 -2562670
           )
         )
       )
@@ -3959,7 +3890,7 @@
         (wire
           (path F.Cu 12400
             2305700 -2269300
-            2149352 -2269300
+            2148717 -2269300
           )
         )
         (wire
@@ -3967,10 +3898,10 @@
             2031980 -2574630
             2031980 -2364078
             2126758 -2269300
-            2149352 -2269300
+            2148717 -2269300
           )
         )
-        (via "Via[0-1]_800:400_um" 2149352 -2269300
+        (via "Via[0-1]_800:400_um" 2148717 -2269300
         )
         (wire
           (path B.Cu 12400
@@ -4099,7 +4030,7 @@
       (net /COL2_L
         (wire
           (path B.Cu 12400
-            1527076 -2453944
+            1526977 -2454043
             1434771 -2546249
             1389299 -2546249
             1372350 -2529300
@@ -4108,14 +4039,14 @@
         (wire
           (path B.Cu 12400
             1500000 -2175000
-            1500000 -2426868
-            1527076 -2453944
+            1500000 -2427066
+            1526977 -2454043
           )
         )
         (wire
           (path B.Cu 12400
-            1527076 -2453944
-            1694765 -2621633
+            1526977 -2454043
+            1694567 -2621633
             2086577 -2621633
             2133580 -2574630
           )
@@ -4206,41 +4137,35 @@
       (net /ROW1_L
         (wire
           (path F.Cu 12400
-            1711400 -813200
             1423400 -813200
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1997400 -812200
-            1996400 -813200
             1711400 -813200
           )
         )
         (wire
           (path F.Cu 12400
-            1241800 -827800
             1262750 -827800
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1423400 -813200
             1277350 -813200
-            1262750 -827800
+            1423400 -813200
           )
         )
         (wire
           (path F.Cu 12400
             1241800 -827800
-            1220850 -827800
+            1262750 -827800
           )
         )
         (wire
           (path F.Cu 12400
             1137400 -812200
-            1205250 -812200
-            1220850 -827800
+            1153000 -827800
+            1241800 -827800
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            1711400 -813200
+            1996400 -813200
+            1997400 -812200
           )
         )
         (wire
@@ -4268,45 +4193,30 @@
       (net /ROW2_L
         (wire
           (path F.Cu 12400
-            1669312 -1061000
-            1695312 -1035000
-            1901400 -1035000
-          )
-        )
-        (wire
-          (path F.Cu 12400
+            1425400 -1109000
+            1473400 -1061000
             1665400 -1061000
-            1669312 -1061000
           )
         )
         (wire
           (path F.Cu 12400
-            1669312 -1061000
-            1669312 -1123514
-            1652315 -1140511
-            1585511 -1140511
-            1554000 -1109000
-            1425400 -1109000
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            1425400 -1109000
+            1252400 -1100600
             1417000 -1100600
-            1252400 -1100600
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1252400 -1100600
-            1231450 -1100600
+            1425400 -1109000
           )
         )
         (wire
           (path F.Cu 12400
             1139400 -1107000
-            1225050 -1107000
-            1231450 -1100600
+            1145800 -1100600
+            1252400 -1100600
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            1665400 -1061000
+            1691400 -1035000
+            1901400 -1035000
           )
         )
         (wire
@@ -4338,13 +4248,6 @@
         )
       )
       (net /ROW3_L
-        (wire
-          (path B.Cu 12400
-            2763400 -1604200
-            2896500 -1471100
-            2932600 -1471100
-          )
-        )
         (wire
           (path B.Cu 12400
             2601400 -1484200
@@ -4380,6 +4283,13 @@
           )
         )
         (wire
+          (path B.Cu 12400
+            2932600 -1471100
+            2896500 -1471100
+            2763400 -1604200
+          )
+        )
+        (wire
           (path F.Cu 12400
             2125400 -1461200
             2341400 -1461200
@@ -4396,27 +4306,9 @@
       (net /ROW4_L
         (wire
           (path F.Cu 12400
-            1414400 -1740000
-            1414400 -1746200
-          )
-        )
-        (wire
-          (path F.Cu 12400
             1650400 -1699200
-            1455200 -1699200
-            1414400 -1740000
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1414400 -1740000
-            1284250 -1740000
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1263300 -1740000
-            1284250 -1740000
+            1461400 -1699200
+            1414400 -1746200
           )
         )
         (wire
@@ -4443,14 +4335,15 @@
         (wire
           (path F.Cu 12400
             1263300 -1740000
-            1242350 -1740000
+            1408200 -1740000
+            1414400 -1746200
           )
         )
         (wire
           (path F.Cu 12400
             1125400 -1747200
-            1235150 -1747200
-            1242350 -1740000
+            1132600 -1740000
+            1263300 -1740000
           )
         )
         (wire
@@ -4464,27 +4357,28 @@
       (net /ROW5_L
         (wire
           (path F.Cu 12400
-            1417300 -2130950
+            1270650 -2130950
+            1410750 -2130950
             1417300 -2137500
           )
         )
         (wire
           (path F.Cu 12400
-            1654300 -2091500
-            1456750 -2091500
-            1417300 -2130950
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1417300 -2130950
-            1291600 -2130950
-          )
-        )
-        (wire
-          (path F.Cu 12400
+            1260175 -2130950
             1270650 -2130950
-            1291600 -2130950
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            1260175 -2130950
+            1249700 -2130950
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            1654300 -2091500
+            1463300 -2091500
+            1417300 -2137500
           )
         )
         (wire
@@ -4526,12 +4420,6 @@
             1892300 -2066500
             2105300 -2066500
             2131300 -2092500
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            1270650 -2130950
-            1249700 -2130950
           )
         )
         (wire
@@ -4621,33 +4509,47 @@
         (wire
           (path F.Cu 12400
             4127300 -2569200
-            4127300 -2531561
-            4108537 -2512798
-            4048796 -2512798
+            4127300 -2531893
+            4108205 -2512798
+            4045537 -2512798
           )
         )
         (wire
           (path B.Cu 12400
             3755000 -2180000
-            3755000 -2219002
-            4048796 -2512798
+            3755000 -2222261
+            4045537 -2512798
           )
         )
-        (via "Via[0-1]_800:400_um" 4048796 -2512798
+        (via "Via[0-1]_800:400_um" 4045537 -2512798
         )
       )
       (net "Net-(D6-Pad1)"
         (wire
-          (path F.Cu 12400
-            5081000 -2290000
-            5101450 -2290000
+          (path B.Cu 12400
+            5055863 -2310450
+            5055863 -2271813
+            4950000 -2165950
           )
         )
         (wire
-          (path F.Cu 12400
-            5101450 -2290000
-            5186450 -2205000
-            5280000 -2205000
+          (path B.Cu 12400
+            5034800 -2509550
+            4997637 -2472387
+            4997637 -2368676
+            5055863 -2310450
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            5055863 -2310450
+            5081000 -2310450
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            4950000 -2145000
+            4950000 -2165950
           )
         )
         (wire
@@ -4673,14 +4575,6 @@
           (path B.Cu 12400
             5034800 -2530000
             5034800 -2509550
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            5034800 -2509550
-            4997637 -2472387
-            4997637 -2393813
-            5081000 -2310450
           )
         )
       )
@@ -4986,9 +4880,9 @@
       (net "Net-(D67-Pad1)"
         (wire
           (path B.Cu 12400
-            2466140 -2453120
-            2509260 -2410000
             2545000 -2410000
+            2509260 -2410000
+            2466140 -2453120
           )
         )
       )
@@ -5100,15 +4994,15 @@
       (net "Net-(J6-Pad1)"
         (wire
           (path B.Cu 12400
-            1955780 -2574630
-            1955780 -2553680
+            1955000 -2530000
+            1955000 -2550950
           )
         )
         (wire
           (path B.Cu 12400
-            1955780 -2553680
-            1955000 -2552900
-            1955000 -2530000
+            1955000 -2550950
+            1955780 -2551730
+            1955780 -2574630
           )
         )
       )
@@ -5121,47 +5015,45 @@
         )
         (wire
           (path B.Cu 12400
-            1981180 -2574630
-            1981180 -2551730
             1980400 -2550950
+            1981180 -2551730
+            1981180 -2574630
           )
         )
       )
       (net "Net-(J6-Pad3)"
         (wire
           (path B.Cu 12400
-            2006580 -2574630
-            2006580 -2553680
+            2005800 -2530000
+            2005800 -2550950
           )
         )
         (wire
           (path B.Cu 12400
-            2006580 -2553680
-            2005800 -2552900
-            2005800 -2530000
+            2005800 -2550950
+            2006580 -2551730
+            2006580 -2574630
           )
         )
       )
       (net "Net-(D18-Pad1)"
         (wire
-          (path B.Cu 12400
-            4561000 -2260225
-            4567682 -2266907
-            4644427 -2266907
-            4710000 -2201334
+          (path F.Cu 12400
+            4561000 -2250000
+            4581450 -2250000
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            4581450 -2250000
+            4671450 -2160000
             4710000 -2160000
           )
         )
         (wire
           (path B.Cu 12400
-            4561000 -2260225
-            4561000 -2270450
-          )
-        )
-        (wire
-          (path B.Cu 12400
             4561000 -2250000
-            4561000 -2260225
+            4561000 -2270450
           )
         )
         (wire
@@ -5312,8 +5204,14 @@
         )
         (wire
           (path B.Cu 12400
-            4081000 -2490225
-            4046595 -2455820
+            4081000 -2480000
+            4081000 -2459550
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            4081000 -2459550
+            4046595 -2425145
             4046595 -2294855
             4081000 -2260450
           )
@@ -5321,13 +5219,13 @@
         (wire
           (path B.Cu 12400
             4081000 -2490225
-            4081000 -2500450
+            4081000 -2480000
           )
         )
         (wire
           (path B.Cu 12400
-            4081000 -2480000
             4081000 -2490225
+            4081000 -2500450
           )
         )
         (wire
@@ -5436,41 +5334,22 @@
         )
         (wire
           (path B.Cu 12400
-            3601000 -1654614
-            3635364 -1654614
+            3601000 -1643000
+            3623750 -1643000
             3739150 -1758400
           )
         )
         (wire
-          (path B.Cu 12400
-            3601000 -1653762
-            3601000 -1654614
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            3601000 -1654614
-            3601000 -1663450
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            3601000 -1643000
-            3601000 -1653762
-          )
-        )
-        (wire
-          (path B.Cu 12400
+          (path F.Cu 12400
             3594800 -1873000
-            3594800 -1852550
+            3615250 -1873000
           )
         )
         (wire
-          (path B.Cu 12400
-            3594800 -1852550
-            3568627 -1826377
-            3568627 -1695823
-            3601000 -1663450
+          (path F.Cu 12400
+            3615250 -1873000
+            3704450 -1783800
+            3760100 -1783800
           )
         )
       )
@@ -5498,22 +5377,17 @@
       (net "Net-(D45-Pad1)"
         (wire
           (path B.Cu 12400
-            3507760 -2638560
-            3507760 -2617610
+            3371000 -2220000
+            3391450 -2220000
           )
         )
         (wire
           (path B.Cu 12400
-            3371000 -2220000
-            3207148 -2220000
-            3145731 -2281417
-            3145731 -2293291
-            3151242 -2298802
-            3346666 -2298802
-            3373966 -2326102
-            3373966 -2486435
-            3505141 -2617610
-            3507760 -2617610
+            3391450 -2220000
+            3408377 -2236927
+            3454805 -2236927
+            3520000 -2171732
+            3520000 -2130000
           )
         )
       )
@@ -5541,11 +5415,11 @@
         )
         (wire
           (path B.Cu 12400
-            2796150 -2229300
-            2813004 -2246154
-            2858979 -2246154
-            2940000 -2165133
             2940000 -2135000
+            2940000 -2165296
+            2858975 -2246321
+            2813171 -2246321
+            2796150 -2229300
           )
         )
       )
@@ -5598,17 +5472,22 @@
       (net "Net-(D63-Pad1)"
         (wire
           (path B.Cu 12400
-            2536000 -1885000
-            2556450 -1885000
+            2546000 -1655000
+            2546000 -1675450
           )
         )
         (wire
           (path B.Cu 12400
-            2556450 -1885000
-            2573562 -1902112
-            2618818 -1902112
-            2688560 -1832370
-            2688560 -1779000
+            2536000 -1885000
+            2536000 -1864550
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            2536000 -1864550
+            2506612 -1835162
+            2506612 -1714838
+            2546000 -1675450
           )
         )
         (wire
@@ -5646,9 +5525,9 @@
         )
         (wire
           (path F.Cu 12400
-            2572350 -2269300
-            2572350 -2266700
             2679050 -2160000
+            2572350 -2266700
+            2572350 -2269300
           )
         )
       )
@@ -6191,16 +6070,9 @@
       (net "Net-(J26-Pad1)"
         (wire
           (path F.Cu 12400
-            3696200 -814600
-            3409200 -814600
-            3408200 -815600
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3982200 -815600
-            3981200 -814600
-            3696200 -814600
+            4267600 -815800
+            4553400 -815800
+            4554200 -816600
           )
         )
         (wire
@@ -6212,29 +6084,30 @@
         )
         (wire
           (path F.Cu 12400
-            4554200 -816200
-            4838600 -816200
-            4840200 -814600
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            4267600 -815800
-            4553800 -815800
-            4554200 -816200
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            4554200 -816600
-            4554200 -816200
+            3982200 -815600
+            3697200 -815600
+            3696200 -814600
           )
         )
         (wire
           (path F.Cu 12400
             5127200 -815600
-            5126200 -814600
+            4841200 -815600
             4840200 -814600
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            4554200 -816600
+            4838200 -816600
+            4840200 -814600
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            3408200 -815600
+            3695200 -815600
+            3696200 -814600
           )
         )
         (wire
@@ -6245,9 +6118,9 @@
         )
         (wire
           (path B.Cu 12400
-            3408200 -815600
-            3339850 -815600
             3290800 -864650
+            3339850 -815600
+            3408200 -815600
           )
         )
       )
@@ -6322,19 +6195,6 @@
       )
       (net "Net-(J28-Pad1)"
         (wire
-          (path F.Cu 12400
-            3282000 -1628200
-            3302950 -1628200
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3349200 -1604600
-            3326550 -1604600
-            3302950 -1628200
-          )
-        )
-        (wire
           (path B.Cu 12400
             3665200 -1484600
             3469200 -1484600
@@ -6396,22 +6256,15 @@
             3901200 -1483600
           )
         )
+        (wire
+          (path F.Cu 12400
+            3282000 -1628200
+            3325600 -1628200
+            3349200 -1604600
+          )
+        )
       )
       (net "Net-(J29-Pad1)"
-        (wire
-          (path F.Cu 12400
-            3519200 -1779500
-            3540150 -1779500
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            3540150 -1779500
-            3540150 -1778191
-            3595741 -1722600
-            3662200 -1722600
-          )
-        )
         (wire
           (path F.Cu 12400
             4852200 -1745600
@@ -6454,16 +6307,22 @@
             3902200 -1721600
           )
         )
-      )
-      (net "Net-(J30-Pad1)"
         (wire
           (path B.Cu 12400
-            3664200 -2116600
-            3638606 -2091006
-            3353794 -2091006
-            3350200 -2094600
+            3519200 -1779500
+            3540150 -1779500
           )
         )
+        (wire
+          (path B.Cu 12400
+            3540150 -1779500
+            3540150 -1778191
+            3595741 -1722600
+            3662200 -1722600
+          )
+        )
+      )
+      (net "Net-(J30-Pad1)"
         (wire
           (path F.Cu 12400
             3902200 -2114600
@@ -6481,15 +6340,24 @@
         (wire
           (path F.Cu 12400
             5142200 -2140600
-            4854200 -2140600
+            5129126 -2127526
+            4865274 -2127526
             4853200 -2139600
           )
         )
         (wire
           (path F.Cu 12400
-            4377800 -2068800
-            4164000 -2068800
-            4139200 -2093600
+            3350200 -2094600
+            3353502 -2091298
+            3638898 -2091298
+            3664200 -2116600
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            3350200 -2094600
+            3306350 -2094600
+            3300950 -2100000
           )
         )
         (wire
@@ -6502,8 +6370,15 @@
         (wire
           (path F.Cu 12400
             4853200 -2139600
-            4808200 -2094600
+            4665200 -2139600
             4620200 -2094600
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            4377800 -2068800
+            4164000 -2068800
+            4139200 -2093600
           )
         )
         (wire
@@ -6512,20 +6387,20 @@
             3300950 -2100000
           )
         )
-        (wire
-          (path F.Cu 12400
-            3350200 -2094600
-            3306350 -2094600
-            3300950 -2100000
-          )
-        )
       )
       (net "Net-(J31-Pad1)"
         (wire
           (path F.Cu 12400
-            5091200 -2381600
-            4853200 -2381600
             4852200 -2380600
+            5090200 -2380600
+            5091200 -2381600
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            4852200 -2380600
+            4662200 -2380600
+            4614200 -2332600
           )
         )
         (wire
@@ -6540,13 +6415,6 @@
             4614200 -2332600
             4587200 -2305600
             4379200 -2305600
-          )
-        )
-        (wire
-          (path F.Cu 12400
-            4852200 -2380600
-            4662200 -2380600
-            4614200 -2332600
           )
         )
         (wire
@@ -6567,15 +6435,24 @@
         (wire
           (path F.Cu 12400
             3844800 -2270000
-            3844800 -2290450
+            3865250 -2270000
           )
         )
         (wire
           (path F.Cu 12400
             4160100 -2533500
-            4124496 -2497896
-            4052246 -2497896
-            3844800 -2290450
+            4160100 -2512550
+          )
+        )
+        (wire
+          (path F.Cu 12400
+            4160100 -2512550
+            4174004 -2498646
+            4174004 -2473185
+            4120517 -2419698
+            4007279 -2419698
+            3865250 -2277669
+            3865250 -2270000
           )
         )
       )
@@ -6623,6 +6500,23 @@
           )
         )
       )
+      (net "Net-(J120-Pad1)"
+        (wire
+          (path B.Cu 12400
+            3465000 -2350000
+            3465000 -2370950
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            3472597 -2437600
+            3484910 -2425287
+            3484910 -2387126
+            3468734 -2370950
+            3465000 -2370950
+          )
+        )
+      )
       (net "Net-(J121-Pad1)"
         (wire
           (path F.Cu 12400
@@ -6632,11 +6526,29 @@
           )
         )
         (wire
-          (path F.Cu 12400
-            3386597 -2763306
-            3440961 -2763306
-            3559361 -2644906
+          (path B.Cu 12400
+            3576780 -2628089
             3593597 -2644906
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            3580000 -2425950
+            3576780 -2429170
+            3576780 -2628089
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            3576780 -2628089
+            3521814 -2628089
+            3386597 -2763306
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            3580000 -2405000
+            3580000 -2425950
           )
         )
       )
@@ -6891,26 +6803,37 @@
       )
       (net "Net-(J151-Pad1)"
         (wire
-          (path B.Cu 12400
-            3537700 -3368750
-            3674949 -3231501
-            3776069 -3231501
-            3795609 -3211961
-            3795609 -3146105
-            3767174 -3117670
-            3746100 -3117670
-          )
-        )
-        (wire
-          (path B.Cu 12400
-            3746100 -3096720
-            3746100 -3117670
+          (path F.Cu 12400
+            3860013 -3157299
+            3919019 -3157299
+            3947322 -3185602
+            3947322 -3408866
+            3932642 -3423546
+            3540414 -3423546
           )
         )
         (wire
           (path B.Cu 12400
             3537700 -3389700
-            3537700 -3368750
+            3537700 -3420832
+            3540414 -3423546
+          )
+        )
+        (wire
+          (path B.Cu 12400
+            3746100 -3096720
+            3767050 -3096720
+          )
+        )
+        (via "Via[0-1]_800:400_um" 3540414 -3423546
+        )
+        (via "Via[0-1]_800:400_um" 3860013 -3157299
+        )
+        (wire
+          (path B.Cu 12400
+            3767050 -3096720
+            3827629 -3157299
+            3860013 -3157299
           )
         )
       )
