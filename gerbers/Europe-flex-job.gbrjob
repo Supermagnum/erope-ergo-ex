@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.1-3b83917a11~172~ubuntu22.04.1"
     },
-    "CreationDate": "2023-03-31T15:39:13+02:00"
+    "CreationDate": "2023-03-31T15:59:08+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.25,
-      "PadToTrack": 0.25,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.25,
       "MinLineWidth": 1.2,
       "TrackToRegion": 0.25,
