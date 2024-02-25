@@ -28,7 +28,7 @@ https://aisler.net/p/NEFSAHWJ
 
 
 Firmware:
-https://github.com/Supermagnum/Europe-ergo/tree/main/Europe_ergo_firmware/europe_ergo
+[https://github.com/Supermagnum/Europe-ergo/tree/main/Europe_ergo_firmware/europe_ergo](https://github.com/Supermagnum/Europe-ergo/tree/main/ergo-firmware/europe_ergo)
 
 Picture:
 https://github.com/Supermagnum/erope-ergo-ex/blob/main/Europe-flex.jpg
